@@ -50,7 +50,7 @@ API调用时，参数使用`JSON`方式表示，并作为Http Body 附加在http
 
 签名算法主要用于生成系统参数 `sign`。生成方式为：
 
-    md5(appkey + t + secretkey + 请求参数(json字符串)
+    md5(appkey + t + secretkey + 请求参数(json字符串))
 
 # API列表
 
