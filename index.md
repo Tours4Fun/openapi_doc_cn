@@ -10,7 +10,7 @@
 
 ## 网关地址:
 
-    https://openapi.toursforfun.com/v1
+    https://openapi.tufengwang.com
 
 ## API调用
 
@@ -35,7 +35,8 @@ API调用时，参数使用`JSON`方式表示，并作为Http Body 附加在http
 
 系统参数使用 `GET` 方式将参数以form-urlencoed的方式附加在api url后面，例如：
 
-    https://openapi.toursforfun.com/v1/product/detail?appkey=xxxxxx&sign=xxxxx&t=xxxxx
+    https://openapi.tufengwang.com/v1/product/detail?appkey=xxxxxx&sign=xxxxx&t=xxxxx
+
 
 **系统参数列表:**
 
@@ -52,21 +53,31 @@ API调用时，参数使用`JSON`方式表示，并作为Http Body 附加在http
 
     md5(appkey + t + secretkey + 请求参数(json字符串))
 
+## 标准调用返回
+
+HTTP CODE 不管是否错误，均返回 200，由具体返回内容确定正确或错误。
+
+```javascript
+{
+    "code" : 0, //状态码，0 表示成功， 非0表示错误码
+    "msg" : "", //消息信息，成功默认 "succ"，其它代表错误信息
+    "data" : {}, //数据内容，由API确定，可能是数组、字符串、数组、对象等。
+}
+```
+
 # 重点数据结构
 
 | 数据     | 中文名  |             说明               |
 | :------: |:--------:|:------------------------------:|
-| [product](./datastruct/product.md)  |  产品  | 产品数据结构，产品根据产品线不同，会有不同的数据结构。   |
+| [产品(product)](./datastruct/product.md)  |  产品  | 产品数据结构，产品根据产品线不同，会有不同的数据结构。   |
 
-## 产品
 
 
 # API列表
 
 ----
 
-## 产品API
 
-| API                                         |  请求方法 |说明          |
-| ------------------------------------------- |:--------:|:-------------:|
-| [创建订单](./doc/api_order/order_create.md)  |   POST   |   创建订单    |
+| API类别    |  地址   |
+| ---------- |:--------:|
+|  产品API   | [前往查看](./api/product.md) |

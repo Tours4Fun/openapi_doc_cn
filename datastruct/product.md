@@ -11,9 +11,3 @@
 | :------: |:--------:|:--------:|
 | activity |  一日游  |   [查看详细](./product/activity.md)  |
 | tour     |  多日游  |   [查看详细](./product/tour.md) |
-| ticket   |  票务    |   [查看详细](./product/ticket.md) |
-
-
-
-## 具体产品数据结构
-
