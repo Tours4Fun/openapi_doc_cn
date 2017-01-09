@@ -6,7 +6,7 @@
 
 数据类型请参考 [这里](../../datastruct/product.md)
 
-### 描述
+### API地址
 
     /v1/product/detail
 
