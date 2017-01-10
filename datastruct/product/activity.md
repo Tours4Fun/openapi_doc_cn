@@ -6,7 +6,7 @@
         "updated_at":1483018903, //最后更新时间
         //产品名称
         "name":"【穿越之旅】雷尼尔火山一日游·雷尼尔国家公园+克莉丝汀瀑布+那拉达瀑布+冰川远眺+天堂游客中心+倒影湖+玛莎瀑布+天堂草甸子",
-        "advertised_price":"50.0000", //建议价格
+        "advertised_price":"50.0000", //建议价格 美元
         "departure_city":"西雅图", //出发城市
         "return_city":"西雅图", //返回城市
         "duration":"1.0", //行程时间
@@ -28,16 +28,12 @@
         //开始城市
         "departure_city_name":[
             {
-                "departure_city_id":595,
-                "language_id":3,
                 "departure_city_name":"西雅图"
             }
         ],
         //结束城市
         "return_city_name":[
             {
-                "return_city_id":595,
-                "language_id":3,
                 "return_city_name":"西雅图"
             }
         ],

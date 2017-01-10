@@ -8,7 +8,7 @@
         "name": "(3天)美西休闲之旅：纳帕谷品美酒、太浩湖赏湖光山色、优胜美地览峰峦瀑布",
         //图片地址
         "image_url": "http://dn-tffimg.qbox.me/df/26/ca5/126/7a3d8c11749e9db6b0e670.jpg",
-        //建议价格
+        //建议价格 美元
         "advertised_price": "247.0000",
         //行程时间
         "duration": "3.0",
@@ -33,36 +33,24 @@
         //出发城市（可多个）
         "departure_city_name": [
             {
-                "departure_city_id": 2,
-                "language_id": 3,
                 "departure_city_name": "旧金山"
             },
             {
-                "departure_city_id": 64,
-                "language_id": 3,
                 "departure_city_name": "圣何塞"
             },
             {
-                "departure_city_id": 542,
-                "language_id": 3,
                 "departure_city_name": "旧金山湾区"
             }
         ],
         //结束城市（可多个）
         "return_city_name": [
             {
-                "return_city_id": 2,
-                "language_id": 3,
                 "return_city_name": "旧金山"
             },
             {
-                "return_city_id": 64,
-                "language_id": 3,
                 "return_city_name": "圣何塞"
             },
             {
-                "return_city_id": 542,
-                "language_id": 3,
                 "return_city_name": "旧金山湾区"
             }
         ],
