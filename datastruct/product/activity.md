@@ -17,7 +17,6 @@
         "is_departure_time":0,
         "is_shopping_tour":0, //是否是购物团
         "min_guest_number":1, //最小出团人数
-        "type_id":10101, //TODO what is this?
         "show_ownexpense":1, //是否应该显示自费项目
         "product_id":58839, //产品ID
         //图片地址
@@ -25,7 +24,6 @@
         "is_pickup":0, //有无出发接送服务
         "is_dropoff":0, //有无到达接送服务
         "subcode_note":"如果客人有8岁以下儿童参团，请特别告知供应商，以便供应商提前安排儿童安全座椅(导游团上收取儿童安全座椅费用$8/天)",
-        "is_backend":1,  //TODO what is this?
         "type_descr":"国家公园",
         //开始城市
         "departure_city_name":[
