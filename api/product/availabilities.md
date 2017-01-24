@@ -20,28 +20,28 @@
 ### 返回示例
 
 	{
-  "code": 0,
-  "msg": "success",
-  "data": {
-    "currency": "USD",
-    "availabilities": [
-      {
-        "date": "2017-01-24",
-        "display_price": "394.00",
-        "min_persons": 1
-      },
-      {
-        "date": "2017-01-25",
-        "display_price": "394.00",
-        "min_persons": 1
-      },
-      {
-        "date": "2017-01-26",
-        "display_price": "394.00",
-        "min_persons": 1
-      }
-    ]
-  }
-}
-
+	  "code": 0,
+	  "msg": "success",
+	  "data": {
+	    "currency": "USD",
+	    "availabilities": [
+	      {
+	        "date": "2017-01-24",
+	        "display_price": "394.00",
+	        "min_persons": 1
+	      },
+	      {
+	        "date": "2017-01-25",
+	        "display_price": "394.00",
+	        "min_persons": 1
+	      },
+	      {
+	        "date": "2017-01-26",
+	        "display_price": "394.00",
+	        "min_persons": 1
+	      }
+	    ]
+	  }
+	}
+	
 
