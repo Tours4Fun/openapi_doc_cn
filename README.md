@@ -53,7 +53,7 @@ API调用时，参数使用`JSON`方式表示，并作为Http Body 附加在http
 | appkey   |  string  | 应用标识，开通访问权限时分配   |
 | t        |  int     | timestamp时间戳，与服务器时间相差必须10分钟内。   |
 | sign     |  string  | 参数签名值，由appkey,t, 请求参数一并得到。|
-| lang     |  string  | 可选,语言选项,取值 zh\_cn 、 zh\_tw 。|
+| lang     |  string  | 可选,语言选项,取值 zh\_cn(默认) 、 zh\_tw 。|
 
 
 ### 签名算法
