@@ -43,7 +43,7 @@ API调用时，参数使用`JSON`方式表示，并作为Http Body 附加在http
 
 系统参数使用 `GET` 方式将参数以form-urlencoed的方式附加在api url后面，例如：
 
-    https://openapi.tufengwang.com/v1/product/detail?appkey=xxxxxx&sign=xxxxx&t=xxxxx
+    https://openapi.tufengwang.com/v1/product/detail?appkey=xxxxxx&sign=xxxxx&t=xxxxx&lang=zh_tw
 
 
 **系统参数列表:**
