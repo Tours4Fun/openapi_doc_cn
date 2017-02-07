@@ -42,16 +42,30 @@
 	        "region_chinese_name": "美国",
 	        "advertised_price": "33.000000",
 	        "departure_city": [
-	          "纽约"
+	          {
+	            "id": 2,
+	            "name_en": "San Francisco",
+	            "name": "旧金山"
+	          }
 	        ],
 	        "return_city": [
-	          "纽约"
+	          {
+	            "id": 1,
+	            "name_en": "Los Angeles",
+	            "name": "洛杉矶"
+	          }
 	        ],
 	        "visited_city": [
-	          "洛杉矶",
-	          "圣塔莫尼卡",
-	          "纽约",
-	          "梦幻世界"
+	          {
+	            "id": 1,
+	            "name_en": "Los Angeles",
+	            "name": "洛杉矶"
+	          },
+	          {
+	            "id": 2,
+	            "name_en": "San Francisco",
+	            "name": "旧金山"
+	          }
 	        ]
 	      }
 	    ]
