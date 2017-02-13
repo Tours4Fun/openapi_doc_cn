@@ -28,7 +28,8 @@
 	      "option_id": 148,
 	      "name": "机场",
 	      "tips": "机场接送",
-	      "can_multi_select": 1,
+	      "can_multi_select": 1, // 是否多选
+	      "required": 0, // 
 	      "value": [
 	        {
 	          "value_id": 1435,
