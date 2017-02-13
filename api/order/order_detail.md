@@ -23,7 +23,7 @@
 	    "status": 100,
 	    "created_at": "2017-01-17 16:34:39",
 	    "updated_at": "2017-01-17 16:34:41",
-	    "price": 11.57,
+	    "price": 28.67,
 	    "product_list": [
 	      {
 	        "product_id": 9847,
@@ -37,10 +37,9 @@
 	          }
 	        ],
 	        "price_info": {
-	          "product_currency": "CNY",
-	          "product_retail": "30.00",
-	          "upgrades_retail": "50.00",
-	          "final_retail": "80.00"
+	          "product_price": "21.50",
+              "upgrades_price": "7.17",
+              "final_price": 28.67
 	        },
 	        "contact": [
 	          {

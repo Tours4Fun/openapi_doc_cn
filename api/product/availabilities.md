@@ -6,7 +6,7 @@
 
 价格部分统一只返回 `USD`
 
-
+**确定返回天数**
 ### API地址
 
     /v1/product/availabilities

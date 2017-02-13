@@ -27,11 +27,11 @@
 	        "order_list":[      //订单列表
 	            {
 	                "order_id":1409,        //订单号
-	                "status":100,           //订单状态
+	                "status":100,           //状态
 	                "created_at":"2016-11-30 14:30:54",
 	                "updated_at":"2016-11-30 14:30:54",
 	                "currency":"USD",
-	                "price":3500,
+	                "price":28.67,
 	                "product_list":[        //产品信息
 	                    {
 	                        "product_id":100020977,
@@ -40,10 +40,9 @@
 	                        "departure_date":"2016-11-28",
 	                        "rooms":"room_info",
 	                        "price_info":{
-	                            "product_currency":"USD",
-	                            "product_retail":"0.00",
-	                            "upgrades_retail":"0.00",
-	                            "final_retail":"3500.00"
+	                            "product_price": "21.50",
+					              "upgrades_price": "7.17",
+					              "final_price": 28.67
 	                        },
 	                        "contact":{
 	                            "firstname":"Blues",

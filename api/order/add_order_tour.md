@@ -1,4 +1,8 @@
-# 创建订单
+# 创建订单(多日游产品)
+
+[一日游产品](./add_order_activity.md)
+
+**[多日游产品](./add_order_tour.md)**
 
 ### 描述
 
@@ -12,8 +16,6 @@ todo
 
 	{
 	    "product_id":9847,  //产品id
-	    "adult":1,  //成人数量
-	    "kid":1,        //小孩数量
 	    "departure_date":"2017-02-22", //出发日期
 	    "departure_address":"jhjhj",    //出发地点
 	    "upgrades":{        //升级项
@@ -22,10 +24,13 @@ todo
 	    },
 	    "rooms":[       //房间信息
 	        {
-	            "adult":2,
-	            "kid":0
-	        }
-	    ],
+				"adult":2,
+				"kid":0
+			},//房间1
+			{
+				"adult":1,
+				"kid":0
+			}//房间2	    ],
 	    "contact":{     //联系人信息
 	        "first_name":"a",
 	        "last_name":"b",
