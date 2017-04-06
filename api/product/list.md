@@ -31,6 +31,7 @@
 	    "products": [
 	      {
 	        "product_id": "13570",
+	        "product_id_old":"123",
 	        "name": "[洛杉矶市区1日游] 好莱坞+比佛利山庄",
 	        "image_url": "http://dn-toursforfun.qbox.me/images/201504271430119119_553de2cfd8b1d_watermark_800_800.jpg",
 	        "product_line": "activity",
