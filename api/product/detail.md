@@ -36,7 +36,7 @@
       "name": "<p>美东豪华之旅：纽约精华全览、古老波士顿、华盛顿游船赏景、尼亚加拉大瀑布、新鲜龙虾餐</p>\r\n",
       "image_url": "Lake-Ontario-ECAN8D(p).jpg",
       "advertised_price": "1000.0000",
-      "is_soldout":false,
+      "stock_status":1,
       "duration": "6.00",
       "duration_type": "day",
       "max_child_age": 0,
