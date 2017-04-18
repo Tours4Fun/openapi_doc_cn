@@ -41,7 +41,11 @@
         "region_chinese_name":"美国",
         "region":"us",
         "sub_region_chinese_name":"美东",
-        "sub_region":"east"
+        "sub_region":"east",
+	    "base_price": {
+	       "adult": 50,
+	       "kid": 40
+	    }
     },
     "info":{
         //简要描述
@@ -89,6 +93,17 @@
             //城市描述
             "description":""
         }
+    ],
+    "images": [  //產品圖片列表
+      {
+        "url": "http://dyn-images.tours4fun.com/images/1669_Thousand-Islands 2.jpg"
+      },
+      {
+        "url": "http://dyn-images.tours4fun.com/images/2448_news-york-city-night-RH-CI.jpg"
+      },
+      {
+        "url": "http://dyn-images.tours4fun.com/images/1208_7-Days-East-Canada-Tour-Package-(NYC)-444.jpg"
+      }
     ]
 }
 ```

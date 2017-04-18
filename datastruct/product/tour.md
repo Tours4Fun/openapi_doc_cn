@@ -57,7 +57,14 @@
         "region_chinese_name": "美国",
         "region": "us",
         "sub_region_chinese_name": "美西",
-        "sub_region": "west"
+        "sub_region": "west",
+        "base_price": {
+	        "single": 394,  //單人間價格
+	        "double": 3077, //雙人間價格 
+	        "triple": 3077, //三人同房價格
+	        "quad": 3077, //四人同房價格
+	        "kid": 100 //小孩價格
+	     }
     },
     "info": {
         //简要描述
@@ -304,6 +311,17 @@
                 },
             ]
         }
+    ],
+    "images": [  //產品圖片列表
+      {
+        "url": "http://dyn-images.tours4fun.com/images/1669_Thousand-Islands 2.jpg"
+      },
+      {
+        "url": "http://dyn-images.tours4fun.com/images/2448_news-york-city-night-RH-CI.jpg"
+      },
+      {
+        "url": "http://dyn-images.tours4fun.com/images/1208_7-Days-East-Canada-Tour-Package-(NYC)-444.jpg"
+      }
     ]
 }
 ```
