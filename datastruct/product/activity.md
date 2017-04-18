@@ -42,10 +42,10 @@
         "region":"us",
         "sub_region_chinese_name":"美东",
         "sub_region":"east",
-	    "base_price": {
-	       "adult": 50,
-	       "kid": 40
-	    }
+        "base_price": {
+        	"adult": 50,
+        	"kid": 40
+    	}
     },
     "info":{
         //简要描述

@@ -59,12 +59,12 @@
         "sub_region_chinese_name": "美西",
         "sub_region": "west",
         "base_price": {
-	        "single": 394,  //單人間價格
-	        "double": 3077, //雙人間價格 
-	        "triple": 3077, //三人同房價格
-	        "quad": 3077, //四人同房價格
-	        "kid": 100 //小孩價格
-	     }
+        	"single": 394,  //單人間價格
+        	"double": 3077, //雙人間價格 
+        	"triple": 3077, //三人同房價格
+        	"quad": 3077, //四人同房價格
+        	"kid": 100 //小孩價格
+    	}
     },
     "info": {
         //简要描述
