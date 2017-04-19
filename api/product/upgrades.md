@@ -29,7 +29,7 @@
 	      "name": "机场",
 	      "tips": "机场接送",
 	      "can_multi_select": 1, // 是否多选
-	      "required": 0, // 
+	      "required": 0, // 当can_multi_select为1时，此处表示需要选择的个数（ 0表示可以不选 ）；当can_multi_select为0时，这个选项无效，表示为必选项目
 	      "value": [
 	        {
 	          "value_id": 1435,
