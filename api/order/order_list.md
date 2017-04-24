@@ -40,8 +40,8 @@
 	                        "departure_date":"2016-11-28",
 	                        "rooms":"room_info",
 	                        "price_info":{
-	                            "product_price": "21.50",
-					              "upgrades_price": "7.17",
+	                            "product_price": 21.5,
+					              "upgrades_price": 7.17,
 					              "final_price": 28.67
 	                        },
 	                        "contact":{
