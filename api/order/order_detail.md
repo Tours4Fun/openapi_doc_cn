@@ -37,9 +37,9 @@
 	          }
 	        ],
 	        "price_info": {
-	          "product_price": 21.5,
-              "upgrades_price": 7.17,
-              "final_price": 28.67
+	        	"product_price": 21.5,
+	        	"upgrades_price": 7.17,
+	        	"final_price": 28.67
 	        },
 	        "contact": [
 	          {
