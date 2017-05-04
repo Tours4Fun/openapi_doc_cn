@@ -32,85 +32,124 @@
   "msg": "success",
   "data": {
     "base": {
-      "updated_at": 1485240198,
-      "name": "<p>美东豪华之旅：纽约精华全览、古老波士顿、华盛顿游船赏景、尼亚加拉大瀑布、新鲜龙虾餐</p>\r\n",
-      "image_url": "Lake-Ontario-ECAN8D(p).jpg",
-      "advertised_price": "1000.0000",
-      "stock_status":1,
-      "duration": "6.00",
+      "updated_at": 1491908403,
+      "name": "(3天)美西休閑之旅：納帕谷品美酒、太浩湖賞湖光山色、優勝美地覽峰巒瀑布",
+      "image_url": "http://dn-tffimg.qbox.me/df/26/ca5/126/7a3d8c11749e9db6b0e670.jpg",
+      "advertised_price": "346.0000",
+      "duration": "3.00",
       "duration_type": "day",
+      "stock_status": 0,
       "max_child_age": 0,
       "min_days_before_departure": 0,
       "min_guest_number": 1,
       "display_itinerary_note": 1,
       "show_ownexpense": 1,
-      "visa_passport": 1,
-      "is_pickup": 2,
-      "is_dropoff": 2,
-      "product_id": 100009369,
+      "visa_passport": 0,
+      "is_pickup": 0,
+      "is_dropoff": 0,
+      "product_id": 101561985,
       "product_line": "tour",
+      "product_passenger": {
+        "lastname_en": {
+          "name": "lastname_en",
+          "label": "姓氏",
+          "type": "text",
+          "min": "",
+          "max": "",
+          "options": [],
+          "placeholder": "",
+          "display_name_en": "Last Name"
+        },
+        "firstname_en": {
+          "name": "firstname_en",
+          "label": "名字",
+          "type": "text",
+          "min": "",
+          "max": "",
+          "options": [],
+          "placeholder": "",
+          "display_name_en": "First Name"
+        },
+        "mobile": {
+          "name": "mobile",
+          "label": "電話",
+          "type": "phone",
+          "min": "",
+          "max": "",
+          "options": [],
+          "placeholder": "",
+          "display_name_en": "Mobile"
+        }
+      },
       "departure_city_name": [
         {
-          "departure_city_id": 496,
-          "departure_city_name": "Dali"
+          "departure_city_id": 2,
+          "departure_city_name": "舊金山"
         },
         {
-          "departure_city_id": 18,
-          "departure_city_name": "Lago del la Ciudad de Havazu"
+          "departure_city_id": 64,
+          "departure_city_name": "聖何塞"
         },
         {
-          "departure_city_id": 20544,
-          "departure_city_name": "Niagara Falls"
-        },
-        {
-          "departure_city_id": 20634,
-          "departure_city_name": "Niagara Power Vista"
+          "departure_city_id": 542,
+          "departure_city_name": "舊金山灣區"
         }
       ],
       "return_city_name": [
         {
-          "return_city_id": 619,
-          "return_city_name": "Queenstown"
+          "return_city_id": 2,
+          "return_city_name": "舊金山"
         },
         {
-          "return_city_id": 23998,
-          "return_city_name": "中国国内机场/市内"
+          "return_city_id": 64,
+          "return_city_name": "聖何塞"
+        },
+        {
+          "return_city_id": 542,
+          "return_city_name": "舊金山灣區"
         }
       ],
-      "region_chinese_name": "亚洲",
-      "region": "asia",
-      "sub_region_chinese_name": "中国",
-      "sub_region": ""
+      "region_chinese_name": "美國",
+      "region": "us",
+      "sub_region_chinese_name": "美西",
+      "sub_region": "west",
+      "base_price": {
+        "single": 428,
+        "double": 346,
+        "triple": 293,
+        "quad": 247,
+        "kid": 0
+      }
     },
     "info": {
-      "brief_description": "<p>马杜加里岛(Madoogali)几乎完全包裹在郁郁葱葱的热带植被中，椰子树、榕树、无处不在的异国芳香，绿松石般的海洋亲吻着柔软的珊瑚白沙滩，这一切美景都等着您的品鉴.<br />\r\n一个独特又从未被触碰过的天堂，专为那些少数特别的人追寻最荣耀的大自然所提供。</p>\r\n",
+      "brief_description": "★ 前往納帕酒鄉欣賞田園美景，還可自費品嘗絕世佳釀，盡享悠閑的浪漫時光<br>\r\n★ 置身於太浩湖絕美的湖光山色之中，湖水藍如寶石，四周群山環繞，仿佛置身天外仙境<br>\r\n★ 游覽美西最負盛名的優勝美地國家公園，遙望懸崖峭壁、千丈飛瀑，別有一番趣味<br>",
       "full_description": "",
       "airport_transfer_info": "",
-      "notice": "<strong>***2014途风大礼包***</strong><br>\r\n即日起，参加行程的贵宾可获赠每人$100.00的超级大礼包！！！<br>\r\n★ 2 餐美味中式海鲜自助午餐，价值$30.00!!<br>\r\n★ 马戏团大酒店内世界最大室内主题公园的2大热门娱乐项目，价值$25.00!!<br>\r\n★ 马戏团大酒店内世界最大永久马戏团的精彩表演，价值$10.00!!<br>\r\n★ 马戏团大酒店内的各式餐厅礼品店折扣券，价值$20.00 !!<br>\r\n★ 马戏团大赌场赠送赌金，价值$15.00 !!<br>\r\n（以上赠送项目详情请以团上导游确认的信息为准）<br>\r\n<font color=#f7860f>送餐温馨提示：</font><br>\r\n豪华自助午餐仅限于拉斯维加斯，用餐地址4300 E. Sunset Rd., C-1, Henderson, NV 89014。享用自助午餐的客人，需支付$1.00小费。<br><br>\r\n\r\n<strong>***预订须知***</strong><br>\r\n1).新年，劳工节，国庆日，感恩节，圣诞节或其他长周末假期期间，团费会有适当的调升，请在订团前与我们确认最终价格。<br>\r\n2).行程先后次序会因出发日期不同而作调整，最终行程请以我们的确认为准。<br>\r\n3).2014 年4月1日起，拉斯维加斯酒店可付费升级到拉斯维加斯大道上的Paris酒店，地段更好，品尝丰盛大餐，观看精彩表演。如需升级请联系我们取得报价。<br>\r\n4)黄石团行程是途风夏季销售最热门的行程路线之一， 很多行程在很短的时间内都会销售一空。<br>\r\n5)为了保证所有贵宾的旅行安排顺畅，我们强烈建议您提前一至二个月预定黄石团行程。<br>\r\n6)我们会在每个工作日下午六时（洛杉矶时间）更新我们的黄石团剩余座位情况。<br>\r\n7)请务必在预定行程并收到我们的确定涵以后再预定机票。我们会在您预订行程之后，1-2个工作日（美国时间）内通知您是否确定还有剩余座位；对于未收到我们的确认，却提前预定机票的贵宾，有可能会因为没有位置而耽误到您的旅行计划，届时途风概不负担责任，敬请谅解。<br>\r\n8)为了节省您的额外开支，请各位游客尽量将到达时间安排在我们免费的接应时间段。<br>\r\n9)如需以下额外服务，请发邮件或致电途风：<br>\r\n* 在免费接机时段以外到达；<br>\r\n* 航班临时改变或延迟，需要额外接应服务； （在我们工作时段内）<br>\r\n* 一个订单需要多次接应服务。<br>\r\n<br>\r\n<strong>***参团须知***</strong><br>\r\n凡参加行程会入住拉斯维加斯酒店的客人，须年满21岁或有21岁以上客人陪同。<br>\r\n在每年的4-5月期间，受年初大雪的影响，黄石公园内的部分景点还未开放；另外在10月期间，由于天气骤变等原因，正常游览顺序及内容可能会受一定影响。<br>\r\n我们可能会通过安排其他旅游景点或者增加在黄石公园停留时间等措施，尽量弥补给各位贵宾造成的不便，也请您谅解我们，并以导游在团上的最终安排为准，感谢您的理解及配合！<br>\r\n在旺季期间，由于酒店房间供应紧张，我们可能会为您更换同等级的酒店，谢谢您的理解及支持！<br><br>\r\n\r\n<font color=#f7860f><strong>变更或修改条款</strong></font><br>\r\n*由于黄石行程十分受欢迎，我们替您预留座位。如果您在确认订单后需要更改出团日期或减少参团人数，请务必提前17天通知，否则将按照以下条款收取一定的费用以及$30的修改订单费用。<br>\r\n1)出团前10-16天，我们将收取团费的30%作为罚款<br>\r\n2)出团前6-9天，我们将收取团费的50%作为罚款<br>\r\n3)出团前5天(工作日)以内，我们将收取全部团费作为罚款<br>\r\n\r\n<font color=#f7860f><strong>买二送一免费者取消条款</strong></font><br>\r\n*我们替享受优惠者预留座位，享受该优惠的订单中如要取消免费者，请务必提前10天通知，否则将按照以下条款收取一定的取消费用以及$30的修改订单费用。<br>\r\n1)出团前6-9天，我们将收取$50每人的罚款<br>\r\n2)出团前1-5天(工作日)，我们将收取$100每人的罚款<br>\r\n3)出团当天不出现，导游将在团上收取$150每人的罚款<br><br>",
-      "includes": "<LI>空调巴士或者中巴接送，每个预订单提供指定机场的免费接送机服务(第一天洛杉矶机场的免费接机时间为: 美国国内航班8:30am-10:00pm;国际航班8:30am-9:30pm)。</LI>\r\n<LI>九晚酒店住宿, 所有酒店提供标准间, 双人床 </LI>\r\n<LI>精心安排旅馆酒店及大型巴士, 让您的旅程舒适又安全 </LI>\r\n<LI>当地最具经验的专职双语导游和超过10年驾驶经验的车长</LI>\r\n<LI>西峡谷门票(每人$80.00)(含一顿午餐：印第安烤肉或中式便当餐)</LI>",
-      "excludes": "<li>不提供您往返出发地的机票和指定机场的相关交通费用</li>\r\n<li>所有个人费用和饮食，行程中的门票或自费项目(自费项目和价格可能会因为季节变化而有所调整，最终请以出团当天的实际项目和当地公园门市价格为准)。</li><br>\r\n-大峡谷国家公园门票：$10.00/人【南峡谷行程】<font color=#f7860f>这是您在团上必付的费用</font><br>\r\n-玻璃桥门票：$35.00/人【西峡谷行程】<br>\r\n-西峡谷直升机+游船：$205.00/人【西峡谷行程】<br>\r\n-拉斯维加斯360度夜景直升机：$139.00/人【西峡谷行程】</LI><br>\r\n-拉斯维加斯夜晚深度游：$25.00/人<br>\r\n-拉斯维加斯大型歌舞表演：$83.00/人起<br>\r\n-拉斯维加斯奇幻魔术表演：$98.00/人<br>\r\n-世界第一秀-水之梦：$160.00/人<br>\r\n-太阳剧团-奇异剧场：$119.00/人<br>\r\n-太阳马戏团-卡秀：$120.00/人<br>\r\n-最性感火辣的脱衣舞秀（18禁）：$65.00/人<br>\r\n-纳帕谷+熊世界+大盐湖+国家公园+燃油附加費：以上为组合套餐，费用为$45.00/人<span style=color:#f7860f>(这是您在团上必付的项目，导游会在行程第五天收取此费用)</span> <br /> \r\n- 羚羊彩穴吉普车：$37.00/人(08:00am)<br>\r\n- 旧金山海湾游船：$36/成人；$24.00/小孩</LI>\r\n<li>不包括接送机服务费：$3.00/人</li>\r\n<LI>不包括提供给导游和司机的服务费(每位客人支付司机及导游服务费：共$7.00/每天) </LI>",
-      "package_special_note": "<br>\r\n<span style=\"font-weight:bold;\">【航班注意事项】：</span><br>\r\n<LI>请注意协调您的航班和旅行团行程的时间，避免误机。<br>\r\n我们建议您在收到行程确认邮件后再预订机票。您的预订通常会在1-2个工作日内得到确认。</li>\r\n<br>\r\n<span style=\"font-weight:bold;\">【预定注意事项】：</span><br>\r\n<li>我们替您预留座位，如果您在确认订单后需要更改出团日期，请务必提前17天通知，否则将按照<b>变更或修改条款</b>收取一定的费用以及<b style=\"font-weight:bold\">$30的修改订单费用</b>。\r\n<li>黄石团行程是途风夏季销售最热门的行程路线之一， 很多行程在很短的时间内都会销售一空。为了保证所有贵宾的旅行安排顺畅，我们强烈建议您提前一至二个月预定黄石团行程。<br>\r\n我们会在每个工作日下午六时（洛杉矶时间）更新我们的黄石团剩余座位情况。</li><br>\r\n\r\n<span style=\"font-weight:bold;\">【行程注意事项】：</span><br>\r\n  <LI>搭乘飞机时，请随时扣紧安全带，以免乱流影响安全。 </li>\r\n  <LI><FONT color=#F7860F>行程先后次序可能会因出发日期而作调整, 但是行程内容完全一样。</FONT></li>\r\n  <LI>住宿饭店时请随时将房门扣上安全锁，以策安全；勿在灯上晾衣物；勿在床上吸烟，听到警报器响，请由紧急出口迅速离开。 </li>\r\n  <LI>每个酒店房间只安排两张床;三人同房如需加床请自行向酒店服务台查询。 </li>\r\n  <LI>团体需一起活动，途中若要离队需征得导游同意以免发生意外。 </li>\r\n  <LI>夜间或自由活动时间若需自行外出，请告知导游或团友，并应特别注意安全。 </li>\r\n  <LI>行走雪地及陡峭之路请谨慎小心。 </li>\r\n  <LI>遵守导游所宣布的观光区、饭店、游乐设施等各种场所的注意事项。 </li>\r\n  <LI>药物：胃肠药、感冒药、晕车药、私人习惯性药物。(视个人身体情况自行准备) </li>\r\n  <LI>如遇特别情形, (天气,修路,罢工,封山,旅游车特殊状况) 为保障旅客权益, 本公司保留调整取消行程的最终解释权。 </li>\r\n  <LI>春夏两季：请您注意穿著轻便的衣物和舒适的鞋子。<BR>\r\n    秋冬两季：请您注意穿著厚实的衣物以保暖。</LI>\r\n<LI>途风温馨提示：<BR>为保障您的个人财产安全，我们建议您在旅行期间随身携带个人贵重物品，不要将贵重物品遗留在大巴/酒店/景点/餐馆等地点；<BR>在任何情况及任何地点下失窃，造成个人财产损失，途风、地接社及司机、领队导游等均不负任何责任，请您悉知。</LI>",
-      "price_special_note": "<style type=\"text/css\">\r\n<!--\r\n.STYLE4 {font-weight: bold; font-family: \"Times New Roman\", Times, serif; color: #F7860F;}\r\n.STYLE5 {color: #F7860F}\r\n-->\r\n</style>\r\n<div class=\"pr_2\">\r\n<div class=\"p_p\">\r\n  <p class=\"STYLE4\"> 买 二 送 一</p>\r\n  <p align=\"left\" class=\"STYLE5\">如：三个人住一个三人间的总价格=2x双人间单价+$120.00(附加费)</p>\r\n  <p align=\"left\" class=\"STYLE5\">＊凡获得买二送一优惠的所有客人均只获一房。</p>\r\n <p align=\"left\" class=\"STYLE5\">注意：以上所列价格是经原价调整之后的\"买二送一\"的价格。</p>\r\n\r\n <p align=\"left\" class=\"STYLE5\">*凡享受买二送一优惠的行程，如要取消其中的一人享受优惠者，请务必提前10天通知修改，否则将根据<strong>取消和退款条例</strong>收取相应的预定费用。</p>\r\n \r\n<p align=\"left\" class=\"STYLE5\">*我们特别为享受优惠者提前预留座位，如果享受该优惠的订单中有人当天未参加该团，地接社将会以现金的方式收取相应的罚款。</p>\r\n\r\n<div class=\"p_p\">*单人间价格是指一人单独享有一个酒店标准间的价格。</div>\r\n<div class=\"p_p\">*双人/三人/四人间是指双人/三人/四人共同享用一个酒店标准间的价格。  </div>\r\n<div class=\"p_p\">*三人/四人间价格不包括在房间里另加床位的价格,另加床位要在登记时单独提出要求。 </div> <div class=\"p_p\">*请注意：由于酒店标准间空间及所加床位有限，请客人自行向酒店服务台咨询加床事宜，途风不能保证加床成功。</div>\r\n\r\n<div class=\"p_p\">*一个房间最多只能容纳包括成人和小孩或婴儿在内共四人。\r\n</div>\r\n</div></div>",
-      "eticket_special_note": "紧急联络电话：1-323-261-8811\r\n\r\nComfort Suites Rosemead \r\nTEL: (626) 228-0528\r\n9488 Valley Blvd., Rosemead, CA 91770\r\n\r\nBest Western Rowland Heights \r\nTEL: (626) 810-1818\r\n18880 E. Gale Ave., Rowland Heights, CA 91748\r\n\r\nHoliday Inn La Mirada\r\nAddress: 14299 Firestone Blvd, La Mirada, CA 90638\r\nTel: 714-739-8500\r\n\r\nHoward Johnson Hotel\r\nAddress: 222 West Houston Avenue, Fullerton, CA 92832\r\nTel: (714) 992-1700\r\n\r\n请注意：在旺季期间，由于酒店房间供应紧张，我们可能会为您更换同等级的酒店，谢谢您的理解及支持！!##!请提前向导游告知您参加的是双峡行程，两个峡谷都前往，以便导游进行安排。!##!!##!紧急联系电话:1-323-261-8811\r\n\r\n今天早上5:00am，请您在Circus Circus Hotel酒店的二楼电梯旁资讯台(Las Vegas,Circus Circus Skyrise Tower 2nd Floor Information)跟导游汇合。\r\n\r\nCircus Circus Hotel , Las Vegas\r\nAddress: 2880 Las Vegas Blvd S, Las Vegas, NV, 89109 United States\r\nTel: (702) 734-0410!##!紧急联络电话：1-323-261-8811\r\n\r\n请注意：在旺季期间，由于酒店房间供应紧张，我们可能会为您更换同等级的酒店，谢谢您的理解及支持！!##!!##!!##!!##!!##!",
-      "tips": "womenrefgv",
-      "additional_promotion": "frere",
-      "credential": "werqw",
-      "change_notice": "frgerefg",
-      "auto_confirm": "frgevre",
-      "travel_notice": "fghnbgfbhftgh",
+      "notice": "* 所有旅客必須在出發前30分鍾到達指定的上車地點。所有旅客必須憑上車許可，團票或在線預定時的確認號上車。<br>\r\n* 網上預訂後，您將會收到一封“確認郵件”（電子票），內附完整的使用說明，包括目的地的當地電話等。當您確定後，請務必打印該“確認郵件”（電子票），並在旅途中隨身攜帶——這是您已付款的證據。<br>\r\n* 為改進線路，提高可操作性，或因不可抗力，有必要更改線路時，我們有權改變行程和住宿酒店。旅游旺季時期，或將增派車輛保證滿足需求。<br><br>",
+      "includes": "* 豪華大巴接送<br>\r\n* 兩晚酒店住宿，所有酒店提供雙人床，標准間<br>\r\n* 精心安排旅館酒店及大型巴士，讓您的旅程舒適又安全<br>\r\n* 當地最具經驗的專職雙語導游(半自助導游)和駕駛經驗豐富的車長<br>",
+      "excludes": "<LI>不提供您往返出發地和舊金山機場或指定接客地點的機票和相關交通費用</LI>\r\n<LI>不包括提供給導游和司機的服務費（每位客人支付司機及導游服務費：共$8.00/每天）</LI>\r\n<LI>所有個人費用(洗衣服，電話費，餐費和個人保險等)，行程中的門票或自費項目(自費項目和價格可能會因為季節變化而有所調整，最終請以出團當天的實際項目和售票窗口的實際價格為准)</LI>",
+      "package_special_note": "",
+      "price_special_note": "* 單人間價格是指一人單獨享有一個酒店標准間的價格。<br>\r\n* 雙人/三人/四人間是指雙人/三人/四人共同享用一個酒店標准間的價格。<br>\r\n* 三人/四人間價格不包括在房間里另加床位的價格，另加床位要在登記時單獨提出要求。<br>\r\n* 請注意：由於酒店標准間空間及所加床位有限，請客人自行向酒店服務台咨詢加床事宜，途風不能保證加床成功。<br>\r\n* 小孩與成人同價。 <br>\r\n* 一個房間最多只能容納包括成人和小孩或嬰兒在內共四人。<br>\r\n@@<FONT color=#f7860f><p align=\"left\" class=\"STYLE5\">團購活動價格說明：</p>\r\n<p align=\"left\" class=\"STYLE5\">*進行團購活動的行程享受途風團購低價保證服務；</p>\r\n<p align=\"left\" class=\"STYLE5\">*如果您選擇的出團日期為假日價格，將不能享受團購優惠，請您悉知；</p>\r\n<p align=\"left\" class=\"STYLE5\">*以團購價格預訂的行程，在團購活動結束後，修改訂單信息(變更出團日期或人數)，將按照最新的價格進行計算，不享受團購優惠。</p>@@</FONT>",
+      "eticket_special_note": "***【參團須知】***\r\n* 為確保您的行程順利，請您在出發前一天務必致電給途風獲取並確認領隊的聯絡方式。\r\n* 支付給導游和司機的服務費以及團費不包括中的自費項目費用將會以現金方式收取，參團前請您把這部分費用計劃在旅行開支內。\r\n\r\n***【其他說明】***\r\n* 請注意：對於當地地接巴士部門的軟性服務，或由於天氣、交通、航班臨時取消等不可預計的突發狀況而臨時被迫更改行程的出發時間，或游覽車出現臨時故障而被迫取消部分游覽景點等不可控制因素，途風首先保留為客人爭取最高權益的義務和責任，但最終解釋權由地接巴士部決定。\r\n* 在出行中，請旅客尊重領隊及司機的工作，按照美國旅游交通法律規定，對於在行程中刻意以各種方式影響行程進行，導致產生不良後果的舉動，巴士地接社有權使用法律手段立即終止旅客的行程，此行為與途風無關。\r\n* 為保障您的個人財產安全，我們建議您在旅行期間隨身攜帶個人貴重物品，不要將貴重物品遺留在大巴/酒店/景點/餐館等地點；在任何情況及任何地點下失竊，造成個人財產損失，途風、地接社及司機、領隊導游等均不負任何責任，請您悉知。",
+      "tips": "",
+      "additional_promotion": "",
+      "credential": "",
+      "change_notice": "離出發日(不含當天)超過17天，退還費用的75%；<br>\r\n離出發日(不含當天)10-16天，退還費用的50%；<br>\r\n離出發日(不含當天)6-9天，退還費用的25%；<br>\r\n離出發日(不含當天)5天之內，不退還任何費用。<br>\r\n* 除以上罰金之外，還將收取6%的手續費。<br>\r\n* 所有景點門票，城市通票等不可更改或退款。<br>\r\n* 每位旅客需要在預定時付全款，如缺席或在中途提前離開，將被視作自動放棄，恕不退款。<br>\r\n* 旅客必須在退款時出示團票。<br>\r\n* 我們有權因人數不達要求取消行程並作出全額退款。我們承諾盡最大努力確保旅行按計劃實行。<br>",
+      "auto_confirm": "",
+      "travel_notice": "* 在旺季期間，由於酒店房間供應緊張，我們可能會為您更換同等級的酒店，謝謝您的理解及支持！",
       "product_tips": ""
     },
     "language": [
       {
         "language_type": "live",
-        "name": "加泰罗尼亚语 Live",
-        "icon": "catalan_live.jpg",
-        "sort_order": 0
+        "name": "中文 Live",
+        "icon": "chinese_live.jpg",
+        "sort_order": 1
       },
       {
-        "language_type": "audio",
-        "name": "中文 Audio",
-        "icon": "chinese_audio.jpg",
+        "language_type": "live",
+        "name": "英語 Live",
+        "icon": "english_live.jpg",
         "sort_order": 0
       }
     ],
@@ -118,17 +157,53 @@
       {
         "day_no": 1,
         "itinerary_no": 1,
-        "mileage": "3.26",
-        "tips": "为了给各位贵宾提供更高效贴心的服务，如果您下单并支付全额团费的日期距离您选择的出团时间在3天及以上，我们100%保证为您保留座位。",
+        "mileage": "0.00",
+        "tips": "",
         "has_city": 1,
         "has_hotel": 1,
         "has_meal": 1,
-        "has_ownexpense": 1,
-        "has_transport": 1,
+        "has_ownexpense": 0,
+        "has_transport": 0,
         "has_attraction": 1,
-        "summary": "早上继续畅游尼加拉大瀑布之旅，前往位于尼加拉河上的公羊岛，欣赏白天的大瀑布，更有机会看到挂在瀑布上的彩虹，之后到位于美国瀑布旁的电影院欣赏大瀑布IMAX电影*，在IMAX电影院内感受震撼的音响及超大银幕，作为游览尼加拉大瀑布的完美结局；之后前往下一城市波士顿，晚上到达位于麻省的波士顿，首先当然要先品尝当地最有名的波士顿龙虾*作为晚餐，大小适中的波士顿龙虾，爽口甜美，非吃不可！",
-        "title": "纽约市博物馆-纽约唐人街",
+        "summary": "參觀位於納帕酒鄉的美麗酒庄，您可自費品嘗各式香醇美酒。納帕酒庄的田園美景和充足的藏酒讓人不由得放慢腳步，駐足細細品味絕世佳釀。釀酒廠擁有氣派的建築物，配搭充滿古典色彩的古董家具。每個角落都洋溢着悠閑的浪漫時光。下午我們來到加州首府薩克拉門托參觀游覽。我們將在雷諾住宿一晚，您可以探索賭場和夜總會。\r\n\r\n<font color=\"#FF6600\"><b>納帕谷葡萄酒品嘗：</b></font>\r\n令人驚嘆的自然之美留出這一地區，生產世界上最好的葡萄酒。擁有更多的世界著名釀酒廠，95%的納帕谷酒廠，400余家酒廠都是家族擁有和經營。 \r\n可選擇不同的酒廠品酒，價格不一，以實際為准。\r\n\r\n<font color=\"#FF6600\"><b>薩克拉門托(Sacramento)：</b></font>\r\n加州州議會大廈(California State Capitol)，同時也作為博物館和美國的政府工作大樓，常年向公眾開放，供游客參觀了解加州的豐富歷史，大廈也見證了現代憲法立法的整個進程。",
+        "title": "舊金山(San Francisco) - 納帕酒鄉(Napa Valley) - 薩克拉門托(Sacramento) - 雷諾(Reno)",
         "itineraryItem": [
+          {
+            "item_type": "city",
+            "order": 1,
+            "attraction_item": [],
+            "hotel_item": [],
+            "city_item": [
+              {
+                "city_description": {
+                  "name": "舊金山",
+                  "pinyin": "J",
+                  "alias": "",
+                  "description": "舊金山，又譯“聖弗朗西斯科”、“三藩市”。舊金山是美國加利福亞州太平洋沿岸港口城市，加州僅次於洛杉磯的第二大城市，美國西部最大的金融中心和重要的高新技術研發和制造基地，位於美國西海岸，太平洋與聖弗朗西斯科灣之間的半島北端。舊金山是美洲華人最為密集的聚居地，也是世界上著名的高新技術產業園“硅谷”的所在地，每天吸納着無數高科技人才和世界各地的游人。"
+                }
+              }
+            ],
+            "meal_item": [],
+            "ownexpense_item": []
+          },
+          {
+            "item_type": "city",
+            "order": 2,
+            "attraction_item": [],
+            "hotel_item": [],
+            "city_item": [
+              {
+                "city_description": {
+                  "name": "薩克拉門托",
+                  "pinyin": "S",
+                  "alias": "",
+                  "description": ""
+                }
+              }
+            ],
+            "meal_item": [],
+            "ownexpense_item": []
+          },
           {
             "item_type": "city",
             "order": 3,
@@ -137,28 +212,10 @@
             "city_item": [
               {
                 "city_description": {
-                  "name": "Newark",
-                  "pinyin": "N",
+                  "name": "雷諾",
+                  "pinyin": "L",
                   "alias": "",
-                  "description": ""
-                }
-              }
-            ],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "city",
-            "order": 7,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [
-              {
-                "city_description": {
-                  "name": "Newark",
-                  "pinyin": "N",
-                  "alias": "",
-                  "description": ""
+                  "description": "雷諾（RENO）享有“全世界最大的小城市”之稱。這里是美國最老的賭城之一，也被評為”全美最適合居住的十大城市”之一。欣賞七彩艷麗的霓虹燈，享受多彩多姿的夜生活，所有的一切，應有盡有。雷諾（RENO）是一個充滿着生機的城市，其中的博物館、藝術畫廊、國家公園、都被當地的居民和旅客視為世界一流的文化及室外活動盛行的度假勝地。加上每年有300多天的陽光普照，RENO吸引着成千上萬的旅客。20世紀上半葉，離婚不像現在這樣普遍和自由，而且離婚是不光彩的事。但是在雷諾，有一種“無責任離婚”，離婚無需理由，只要住夠規定的時間，交一定的費用就可離婚。所以，成千上萬的美國人為了順利離婚而蜂擁至此，使這個城市名噪一時。"
                 }
               }
             ],
@@ -167,26 +224,26 @@
           },
           {
             "item_type": "attraction",
-            "order": 2,
+            "order": 4,
             "attraction_item": [
               {
-                "duration": "1.0",
+                "duration": "0.0",
                 "duration_type": "day",
                 "is_optional": 0,
                 "city_description": {
-                  "name": "纽约市博物馆",
+                  "name": "納帕谷(酒鄉)",
                   "pinyin": "N",
                   "alias": "",
-                  "description": "",
+                  "description": "納帕山谷位於美國加利福亞州北部，是一片廣袤綿延的丘陵。納帕山谷陽光燦爛，氣候宜人，清澈的溪水靜靜地流淌，滋潤着兩岸翡翠般的草地和溝壟線條流暢的葡萄園，同時醞釀出醇香柔和回味無窮的納帕葡萄酒。納帕是美國最優秀的葡萄酒產區之一，主要釀制紅葡萄酒、白葡萄酒、香檳等，是世界第四大葡萄酒產地，已經成為美國酒文化的代名詞，新世紀葡萄酒行業高貴典雅的品質象征。  帕酒庄的田園美景和充足的藏酒讓你不由得放慢腳步，駐足細細品味絕世佳釀。",
                   "transportation": "",
                   "languages": "",
                   "feature_foods": "",
                   "religious_culture": "",
                   "tips": "",
                   "operate_tips": "",
-                  "tour_city_id": 345,
+                  "tour_city_id": 24,
                   "language_id": 3,
-                  "image": "TourCity201405051399312413_5367d01d13d97.jpg"
+                  "image": "https://d3ne5s9fv9p81l.cloudfront.net/images/Ripe_grapes_napa_valley.jpg"
                 }
               }
             ],
@@ -194,24 +251,6 @@
             "city_item": [],
             "meal_item": [],
             "ownexpense_item": []
-          },
-          {
-            "item_type": "ownexpense",
-            "order": 1,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": [
-              {
-                "price": "23",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "洛杉矶自费景点2",
-                  "description": "啥amy"
-                }
-              }
-            ]
           },
           {
             "item_type": "hotel",
@@ -219,9 +258,9 @@
             "attraction_item": [],
             "hotel_item": [
               {
-                "name": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
-                "description": "d",
-                "image_url": "d"
+                "name": "Reno Sands Casino Hotel ",
+                "description": "",
+                "image_url": ""
               }
             ],
             "city_item": [],
@@ -229,7 +268,7 @@
             "ownexpense_item": []
           },
           {
-            "item_type": "transport",
+            "item_type": "meal",
             "order": 6,
             "attraction_item": [],
             "hotel_item": [],
@@ -239,15 +278,15 @@
           },
           {
             "item_type": "meal",
-            "order": 4,
+            "order": 6,
             "attraction_item": [],
             "hotel_item": [],
             "city_item": [],
             "meal_item": [
               {
-                "name": "rge",
-                "description": "ww",
-                "image_url": "www"
+                "name": "餐食：自理",
+                "description": "",
+                "image_url": ""
               }
             ],
             "ownexpense_item": []
@@ -257,112 +296,97 @@
       {
         "day_no": 2,
         "itinerary_no": 1,
-        "mileage": "3.26",
-        "tips": "为了给各位贵宾提供更高效贴心的服务，如果您下单并支付全额团费的日期距离您选择的出团时间在3天及以上，我们100%保证为您保留座位。",
-        "has_city": 0,
+        "mileage": "0.00",
+        "tips": "",
+        "has_city": 1,
         "has_hotel": 1,
         "has_meal": 1,
         "has_ownexpense": 1,
         "has_transport": 0,
         "has_attraction": 1,
-        "summary": "早上继续畅游尼加拉大瀑布之旅，前往位于尼加拉河上的公羊岛，欣赏白天的大瀑布，更有机会看到挂在瀑布上的彩虹，之后到位于美国瀑布旁的电影院欣赏大瀑布IMAX电影*，在IMAX电影院内感受震撼的音响及超大银幕，作为游览尼加拉大瀑布的完美结局；之后前往下一城市波士顿，晚上到达位于麻省的波士顿，首先当然要先品尝当地最有名的波士顿龙虾*作为晚餐，大小适中的波士顿龙虾，爽口甜美，非吃不可！",
-        "title": "纽约市博物馆-纽约唐人街",
+        "summary": "早晨我們將出發前往太浩湖。太浩湖是橫跨美國加州和內華達州的大淡水湖泊，海拔 6,225 英尺 (1,897 m)，由附近雪山融雪積水而成，所以湖水終年冰涼清澈，是美國第二深的高山湖泊，也是加州大部分民眾的度假首選。",
+        "title": "雷諾(Reno) - 太浩湖(Lake Tahoe) - 特雷西(Tracy)",
         "itineraryItem": [
           {
-            "item_type": "attraction",
-            "order": 4,
-            "attraction_item": [
-              {
-                "duration": "1.0",
-                "duration_type": "day",
-                "is_optional": 0,
-                "city_description": {
-                  "name": "纽约市博物馆",
-                  "pinyin": "N",
-                  "alias": "",
-                  "description": "",
-                  "transportation": "",
-                  "languages": "",
-                  "feature_foods": "",
-                  "religious_culture": "",
-                  "tips": "",
-                  "operate_tips": "",
-                  "tour_city_id": 345,
-                  "language_id": 3,
-                  "image": "TourCity201405051399312413_5367d01d13d97.jpg"
-                }
-              }
-            ],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "attraction",
-            "order": 6,
-            "attraction_item": [
-              {
-                "duration": "1.0",
-                "duration_type": "day",
-                "is_optional": 0,
-                "city_description": {
-                  "name": "纽约唐人街",
-                  "pinyin": "N",
-                  "alias": "",
-                  "description": "",
-                  "transportation": "",
-                  "languages": "",
-                  "feature_foods": "",
-                  "religious_culture": "",
-                  "tips": "",
-                  "operate_tips": "",
-                  "tour_city_id": 106,
-                  "language_id": 3,
-                  "image": "chinatown_new_york.jpg"
-                }
-              }
-            ],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "ownexpense",
+            "item_type": "city",
             "order": 1,
             "attraction_item": [],
             "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": [
+            "city_item": [
               {
-                "price": "23",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "洛杉矶自费景点2",
-                  "description": "啥amy"
+                "city_description": {
+                  "name": "雷諾",
+                  "pinyin": "L",
+                  "alias": "",
+                  "description": "雷諾（RENO）享有“全世界最大的小城市”之稱。這里是美國最老的賭城之一，也被評為”全美最適合居住的十大城市”之一。欣賞七彩艷麗的霓虹燈，享受多彩多姿的夜生活，所有的一切，應有盡有。雷諾（RENO）是一個充滿着生機的城市，其中的博物館、藝術畫廊、國家公園、都被當地的居民和旅客視為世界一流的文化及室外活動盛行的度假勝地。加上每年有300多天的陽光普照，RENO吸引着成千上萬的旅客。20世紀上半葉，離婚不像現在這樣普遍和自由，而且離婚是不光彩的事。但是在雷諾，有一種“無責任離婚”，離婚無需理由，只要住夠規定的時間，交一定的費用就可離婚。所以，成千上萬的美國人為了順利離婚而蜂擁至此，使這個城市名噪一時。"
                 }
               }
-            ]
+            ],
+            "meal_item": [],
+            "ownexpense_item": []
+          },
+          {
+            "item_type": "attraction",
+            "order": 2,
+            "attraction_item": [
+              {
+                "duration": "0.0",
+                "duration_type": "day",
+                "is_optional": 0,
+                "city_description": {
+                  "name": "太浩湖",
+                  "pinyin": "T",
+                  "alias": "",
+                  "description": "太浩湖又譯作塔霍湖，是一個位於美國加利福亞州和內華達州邊界上的湖泊，在內華達州首府卡森城以西約10英里的地方。它是北美最大的高山湖泊。深501米，是美國第二深的湖泊。湖泊蓄水量為150.68249立方千米，蓄水量全世界排名第26位。海拔1897米。太浩湖是一個兩座山脈間斷層移動陷落所造成的大湖，有多座山頭圍繞湖邊，因此冬天是絕佳的滑雪場，夏天則是避暑勝地。",
+                  "transportation": "",
+                  "languages": "",
+                  "feature_foods": "",
+                  "religious_culture": "",
+                  "tips": "",
+                  "operate_tips": "",
+                  "tour_city_id": 552,
+                  "language_id": 3,
+                  "image": "https://d3ne5s9fv9p81l.cloudfront.net/images/lake_tahoe_california.jpg"
+                }
+              }
+            ],
+            "hotel_item": [],
+            "city_item": [],
+            "meal_item": [],
+            "ownexpense_item": []
           },
           {
             "item_type": "ownexpense",
-            "order": 2,
+            "order": 3,
             "attraction_item": [],
             "hotel_item": [],
             "city_item": [],
             "meal_item": [],
             "ownexpense_item": [
               {
-                "price": "140",
+                "price": "$59.00/成人；$29.00/小孩(3-11歲)；$59.00/老人",
                 "tips": "",
                 "ownexpense_description": {
-                  "name": "candy测试自费项目",
-                  "description": "123344455"
+                  "name": "太浩湖巡航",
+                  "description": ""
                 }
               }
             ]
+          },
+          {
+            "item_type": "hotel",
+            "order": 4,
+            "attraction_item": [],
+            "hotel_item": [
+              {
+                "name": "Days Inn",
+                "description": "",
+                "image_url": ""
+              }
+            ],
+            "city_item": [],
+            "meal_item": [],
+            "ownexpense_item": []
           },
           {
             "item_type": "hotel",
@@ -370,9 +394,9 @@
             "attraction_item": [],
             "hotel_item": [
               {
-                "name": "rg",
-                "description": "rg",
-                "image_url": "reg"
+                "name": "Similar Nearby Tracy",
+                "description": "",
+                "image_url": ""
               }
             ],
             "city_item": [],
@@ -381,15 +405,24 @@
           },
           {
             "item_type": "meal",
-            "order": 3,
+            "order": 6,
+            "attraction_item": [],
+            "hotel_item": [],
+            "city_item": [],
+            "meal_item": [],
+            "ownexpense_item": []
+          },
+          {
+            "item_type": "meal",
+            "order": 6,
             "attraction_item": [],
             "hotel_item": [],
             "city_item": [],
             "meal_item": [
               {
-                "name": "rge",
-                "description": "rg",
-                "image_url": "re"
+                "name": "餐食：自理",
+                "description": "",
+                "image_url": ""
               }
             ],
             "ownexpense_item": []
@@ -399,356 +432,29 @@
       {
         "day_no": 3,
         "itinerary_no": 1,
-        "mileage": "3.26",
-        "tips": "为了给各位贵宾提供更高效贴心的服务，如果您下单并支付全额团费的日期距离您选择的出团时间在3天及以上，我们100%保证为您保留座位。",
+        "mileage": "0.00",
+        "tips": "",
         "has_city": 1,
-        "has_hotel": 1,
+        "has_hotel": 0,
         "has_meal": 1,
-        "has_ownexpense": 1,
-        "has_transport": 1,
-        "has_attraction": 0,
-        "summary": "早上继续畅游尼加拉大瀑布之旅，前往位于尼加拉河上的公羊岛，欣赏白天的大瀑布，更有机会看到挂在瀑布上的彩虹，之后到位于美国瀑布旁的电影院欣赏大瀑布IMAX电影*，在IMAX电影院内感受震撼的音响及超大银幕，作为游览尼加拉大瀑布的完美结局；之后前往下一城市波士顿，晚上到达位于麻省的波士顿，首先当然要先品尝当地最有名的波士顿龙虾*作为晚餐，大小适中的波士顿龙虾，爽口甜美，非吃不可！",
-        "title": "2",
-        "itineraryItem": [
-          {
-            "item_type": "city",
-            "order": 3,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [
-              {
-                "city_description": {
-                  "name": "比林斯",
-                  "pinyin": "B",
-                  "alias": "",
-                  "description": ""
-                }
-              }
-            ],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "ownexpense",
-            "order": 1,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": [
-              {
-                "price": "23",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "洛杉矶自费景点2",
-                  "description": "啥amy"
-                }
-              }
-            ]
-          },
-          {
-            "item_type": "ownexpense",
-            "order": 2,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": [
-              {
-                "price": "140",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "candy测试自费项目",
-                  "description": "123344455"
-                }
-              }
-            ]
-          },
-          {
-            "item_type": "hotel",
-            "order": 4,
-            "attraction_item": [],
-            "hotel_item": [
-              {
-                "name": "rg",
-                "description": "rg",
-                "image_url": "reg"
-              }
-            ],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "transport",
-            "order": 6,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "meal",
-            "order": 5,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [
-              {
-                "name": "rge",
-                "description": "rg",
-                "image_url": "re"
-              }
-            ],
-            "ownexpense_item": []
-          }
-        ]
-      },
-      {
-        "day_no": 4,
-        "itinerary_no": 1,
-        "mileage": "3.26",
-        "tips": "为了给各位贵宾提供更高效贴心的服务，如果您下单并支付全额团费的日期距离您选择的出团时间在3天及以上，我们100%保证为您保留座位。",
-        "has_city": 1,
-        "has_hotel": 1,
-        "has_meal": 1,
-        "has_ownexpense": 1,
-        "has_transport": 1,
-        "has_attraction": 0,
-        "summary": "早上继续畅游尼加拉大瀑布之旅，前往位于尼加拉河上的公羊岛，欣赏白天的大瀑布，更有机会看到挂在瀑布上的彩虹，之后到位于美国瀑布旁的电影院欣赏大瀑布IMAX电影*，在IMAX电影院内感受震撼的音响及超大银幕，作为游览尼加拉大瀑布的完美结局；之后前往下一城市波士顿，晚上到达位于麻省的波士顿，首先当然要先品尝当地最有名的波士顿龙虾*作为晚餐，大小适中的波士顿龙虾，爽口甜美，非吃不可！",
-        "title": "3",
-        "itineraryItem": [
-          {
-            "item_type": "city",
-            "order": 3,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [
-              {
-                "city_description": {
-                  "name": "比林斯",
-                  "pinyin": "B",
-                  "alias": "",
-                  "description": ""
-                }
-              }
-            ],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "ownexpense",
-            "order": 1,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": [
-              {
-                "price": "23",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "洛杉矶自费景点2",
-                  "description": "啥amy"
-                }
-              }
-            ]
-          },
-          {
-            "item_type": "ownexpense",
-            "order": 2,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": [
-              {
-                "price": "140",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "candy测试自费项目",
-                  "description": "123344455"
-                }
-              }
-            ]
-          },
-          {
-            "item_type": "hotel",
-            "order": 4,
-            "attraction_item": [],
-            "hotel_item": [
-              {
-                "name": "rg",
-                "description": "rg",
-                "image_url": "reg"
-              }
-            ],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "transport",
-            "order": 6,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "meal",
-            "order": 5,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [
-              {
-                "name": "rge",
-                "description": "rg",
-                "image_url": "re"
-              }
-            ],
-            "ownexpense_item": []
-          }
-        ]
-      },
-      {
-        "day_no": 5,
-        "itinerary_no": 1,
-        "mileage": "3.26",
-        "tips": "为了给各位贵宾提供更高效贴心的服务，如果您下单并支付全额团费的日期距离您选择的出团时间在3天及以上，我们100%保证为您保留座位。",
-        "has_city": 1,
-        "has_hotel": 1,
-        "has_meal": 1,
-        "has_ownexpense": 1,
-        "has_transport": 1,
-        "has_attraction": 0,
-        "summary": "早上继续畅游尼加拉大瀑布之旅，前往位于尼加拉河上的公羊岛，欣赏白天的大瀑布，更有机会看到挂在瀑布上的彩虹，之后到位于美国瀑布旁的电影院欣赏大瀑布IMAX电影*，在IMAX电影院内感受震撼的音响及超大银幕，作为游览尼加拉大瀑布的完美结局；之后前往下一城市波士顿，晚上到达位于麻省的波士顿，首先当然要先品尝当地最有名的波士顿龙虾*作为晚餐，大小适中的波士顿龙虾，爽口甜美，非吃不可！",
-        "title": "4",
-        "itineraryItem": [
-          {
-            "item_type": "city",
-            "order": 3,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [
-              {
-                "city_description": {
-                  "name": "比林斯",
-                  "pinyin": "B",
-                  "alias": "",
-                  "description": ""
-                }
-              }
-            ],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "ownexpense",
-            "order": 1,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": [
-              {
-                "price": "23",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "洛杉矶自费景点2",
-                  "description": "啥amy"
-                }
-              }
-            ]
-          },
-          {
-            "item_type": "ownexpense",
-            "order": 2,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": [
-              {
-                "price": "140",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "candy测试自费项目",
-                  "description": "123344455"
-                }
-              }
-            ]
-          },
-          {
-            "item_type": "hotel",
-            "order": 4,
-            "attraction_item": [],
-            "hotel_item": [
-              {
-                "name": "rg",
-                "description": "rg",
-                "image_url": "reg"
-              }
-            ],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "transport",
-            "order": 6,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [],
-            "ownexpense_item": []
-          },
-          {
-            "item_type": "meal",
-            "order": 5,
-            "attraction_item": [],
-            "hotel_item": [],
-            "city_item": [],
-            "meal_item": [
-              {
-                "name": "rge",
-                "description": "rg",
-                "image_url": "re"
-              }
-            ],
-            "ownexpense_item": []
-          }
-        ]
-      },
-      {
-        "day_no": 6,
-        "itinerary_no": 1,
-        "mileage": "3.26",
-        "tips": "为了给各位贵宾提供更高效贴心的服务，如果您下单并支付全额团费的日期距离您选择的出团时间在3天及以上，我们100%保证为您保留座位。",
-        "has_city": 1,
-        "has_hotel": 1,
-        "has_meal": 1,
-        "has_ownexpense": 1,
-        "has_transport": 1,
+        "has_ownexpense": 0,
+        "has_transport": 0,
         "has_attraction": 1,
-        "summary": "早上继续畅游尼加拉大瀑布之旅，前往位于尼加拉河上的公羊岛，欣赏白天的大瀑布，更有机会看到挂在瀑布上的彩虹，之后到位于美国瀑布旁的电影院欣赏大瀑布IMAX电影*，在IMAX电影院内感受震撼的音响及超大银幕，作为游览尼加拉大瀑布的完美结局；之后前往下一城市波士顿，晚上到达位于麻省的波士顿，首先当然要先品尝当地最有名的波士顿龙虾*作为晚餐，大小适中的波士顿龙虾，爽口甜美，非吃不可！",
-        "title": "纽约市博物馆-纽约唐人街",
+        "summary": "游覽美西最負盛名的優勝美地國家公園，一路怪石嶙峋、懸崖峭壁、千丈飛瀑、萬里峰巒、仿彿罝身世外。公園內著名景致區如下：新娘面紗瀑布、船長巨岩、昆仲斜岩石、金沙江、觀瀑橋、半球巨岩、斷層飛瀑、南眺景等。游畢返回灣區。\r\n\r\n<font color=\"#FF6600\">隧道觀景點(Tunnel View)</font> 優勝美地有名的景點之一。它像一幅優勝美地的預覽，從那里可以看到船長岩、新娘的面紗、半圓丘等著名的優勝美地景點。 \r\n<font color=\"#FF6600\">新娘面紗瀑布(Bridal Veil Falls)</font> 高620英尺，是公園第2大瀑布，朦朦朧朧的像一塊新娘面紗一般懸在空中。它是優勝美地國家公園的五大瀑里，知名度相當高的瀑布。 \r\n<font color=\"#FF6600\">船長岩(El Capitan)</font> 又稱“酋長巨石”。它是優勝美地最有知名度的景點之一。酋長巨石高3000英尺(910公尺)，如果以一層樓3公尺計算，它的高度約為303層樓高。 \r\n<font color=\"#FF6600\">默塞德河(Merced River)</font> 默塞德河淌過華達州和優勝美地國家公園的瀑布。河流蜿蜒穿過優勝美地國家公園山谷，匯聚成一條清澈的河流。 \r\n<font color=\"#FF6600\">優勝美地瀑布(Yosemite Falls)</font> 優勝美地瀑布是北美最高的瀑布，是優勝美地谷最強大的組成部分。不論春夏秋冬季節如何變化，這個宏偉的瀑布一直是一個充滿活力的動力。 \r\n<font color=\"#FF6600\">半圓丘(Half Dome)</font> 表面受冰河作用切割的很平，像刀削的似的，矗立於海拔8842英尺的頂峰上，是優勝美地最高的山峰。也是世界最具挑戰性的攀岩地之一。\r\n若您准備當天飛離舊金山，建議預訂11:00pm之後的航班。\r\n",
+        "title": "優勝美地(Yosemite) - 舊金山(San Francisco)",
         "itineraryItem": [
           {
             "item_type": "city",
-            "order": 3,
+            "order": 1,
             "attraction_item": [],
             "hotel_item": [],
             "city_item": [
               {
                 "city_description": {
-                  "name": "Newark",
-                  "pinyin": "N",
+                  "name": "舊金山",
+                  "pinyin": "J",
                   "alias": "",
-                  "description": ""
+                  "description": "舊金山，又譯“聖弗朗西斯科”、“三藩市”。舊金山是美國加利福亞州太平洋沿岸港口城市，加州僅次於洛杉磯的第二大城市，美國西部最大的金融中心和重要的高新技術研發和制造基地，位於美國西海岸，太平洋與聖弗朗西斯科灣之間的半島北端。舊金山是美洲華人最為密集的聚居地，也是世界上著名的高新技術產業園“硅谷”的所在地，每天吸納着無數高科技人才和世界各地的游人。"
                 }
               }
             ],
@@ -760,23 +466,23 @@
             "order": 2,
             "attraction_item": [
               {
-                "duration": "1.0",
+                "duration": "0.0",
                 "duration_type": "day",
                 "is_optional": 0,
                 "city_description": {
-                  "name": "纽约市博物馆",
-                  "pinyin": "N",
+                  "name": "優勝美地國家公園",
+                  "pinyin": "Y",
                   "alias": "",
-                  "description": "",
+                  "description": "優勝美地國家公園位於加利福亞州東部內華達山脈上，是美國西部最美麗、參觀人數最多的國家公園之一，與大峽谷國家公園、黃石國家公園齊名。公園以優勝美地溪谷為中心，峽谷內有默塞德河流過，以及一些瀑布，包括著名的優勝美地瀑布。景觀中還有許多美麗的山峰，其中最著名的是船長峰，這是一個由谷底垂直向上高達1099米的花崗岩壁，是世界上最高的不間斷陡崖之一。公園內的地勢落差極大，不斷映入眼簾的山峰、峽谷、河流、瀑布，構成了山谷內鬼斧神工的雄偉景色。",
                   "transportation": "",
                   "languages": "",
                   "feature_foods": "",
                   "religious_culture": "",
                   "tips": "",
                   "operate_tips": "",
-                  "tour_city_id": 345,
+                  "tour_city_id": 51,
                   "language_id": 3,
-                  "image": "TourCity201405051399312413_5367d01d13d97.jpg"
+                  "image": "https://d3ne5s9fv9p81l.cloudfront.net/images/TourCity201606131465808363_575e75eb2981e.jpg"
                 }
               }
             ],
@@ -786,41 +492,128 @@
             "ownexpense_item": []
           },
           {
-            "item_type": "ownexpense",
-            "order": 1,
-            "attraction_item": [],
+            "item_type": "attraction",
+            "order": 3,
+            "attraction_item": [
+              {
+                "duration": "0.0",
+                "duration_type": "day",
+                "is_optional": 0,
+                "city_description": {
+                  "name": "優勝美地新娘面紗瀑布",
+                  "pinyin": "Y",
+                  "alias": "",
+                  "description": "新娘面紗瀑布 (Bridal Veil Falls) 高620英尺，是優勝美地國家公園里的第二大瀑布，朦朦朧朧的像一塊新娘面紗一般懸在空中。它是優勝美地國家公園的五大瀑里，知名度相當高的瀑布。5月份是觀賞瀑布的最佳時間，那時候高山上的雪水融化，瀑布的水量最足，夏天和秋天就會出像斷流的現象，而冬天有可能在瀑布口凍成冰凌。",
+                  "transportation": "",
+                  "languages": "",
+                  "feature_foods": "",
+                  "religious_culture": "",
+                  "tips": "",
+                  "operate_tips": "",
+                  "tour_city_id": 23113,
+                  "language_id": 3,
+                  "image": "TourCity201407111405106721_53c03a21e9409.jpg"
+                }
+              }
+            ],
             "hotel_item": [],
             "city_item": [],
             "meal_item": [],
-            "ownexpense_item": [
-              {
-                "price": "23",
-                "tips": "",
-                "ownexpense_description": {
-                  "name": "洛杉矶自费景点2",
-                  "description": "啥amy"
-                }
-              }
-            ]
+            "ownexpense_item": []
           },
           {
-            "item_type": "hotel",
+            "item_type": "attraction",
+            "order": 4,
+            "attraction_item": [
+              {
+                "duration": "0.0",
+                "duration_type": "day",
+                "is_optional": 0,
+                "city_description": {
+                  "name": "船長岩",
+                  "pinyin": "C",
+                  "alias": "",
+                  "description": "船長岩是世界上最險峻的峭壁之一，由極為堅硬且毫無裂紋的花崗岩形成，因此，強大的自然侵蝕似乎對它沒產生什么影響。船長岩是優勝美地的地標式景觀，從山谷谷底到船長岩頂部的距離為1100米，陡峭無比，岩壁光滑，異常險峻，從而吸引了世界各地專業攀岩者來挑戰。",
+                  "transportation": "",
+                  "languages": "",
+                  "feature_foods": "",
+                  "religious_culture": "",
+                  "tips": "",
+                  "operate_tips": "",
+                  "tour_city_id": 23116,
+                  "language_id": 3,
+                  "image": "TourCity201606131465808738_575e7762b2c16.jpg"
+                }
+              }
+            ],
+            "hotel_item": [],
+            "city_item": [],
+            "meal_item": [],
+            "ownexpense_item": []
+          },
+          {
+            "item_type": "attraction",
             "order": 5,
-            "attraction_item": [],
-            "hotel_item": [
+            "attraction_item": [
               {
-                "name": "The Glendon Hotel \r\n Knights Inn",
-                "description": "t",
-                "image_url": "t"
+                "duration": "0.0",
+                "duration_type": "day",
+                "is_optional": 0,
+                "city_description": {
+                  "name": "半圓頂",
+                  "pinyin": "B",
+                  "alias": "",
+                  "description": "Half Dome，直譯為“半圓頂”，是一塊半球形的巨大花崗岩山。它是美國加州Yosemite優山美地國家公園的象征，更是The North Face品牌logo的來源。Half Dome海拔近3000米，是優山美地里最高的山峰，比周圍山峰高出近1000米，所以當夕陽落下地平線，大地陷入陰影里的時候，Half Dome光滑的山壁獨自在夕陽下熠熠生輝，非常壯觀。Half Dome的西北壁是長約六百米，斜度達93%的垂直面，是世界上最具挑戰性的攀岩地之一，Yosemite優山美地國家公園也因此吸引了大量世界各地的專業攀岩者。",
+                  "transportation": "",
+                  "languages": "",
+                  "feature_foods": "",
+                  "religious_culture": "",
+                  "tips": "",
+                  "operate_tips": "",
+                  "tour_city_id": 23122,
+                  "language_id": 3,
+                  "image": "https://d3ne5s9fv9p81l.cloudfront.net/images/TourCity201407111405106767_53c03a4f10360.jpg"
+                }
               }
             ],
+            "hotel_item": [],
             "city_item": [],
             "meal_item": [],
             "ownexpense_item": []
           },
           {
-            "item_type": "transport",
+            "item_type": "attraction",
             "order": 6,
+            "attraction_item": [
+              {
+                "duration": "0.0",
+                "duration_type": "day",
+                "is_optional": 0,
+                "city_description": {
+                  "name": "優勝美地瀑布",
+                  "pinyin": "Y",
+                  "alias": "",
+                  "description": "優勝美地瀑布，是北美洲落差最大的瀑布，位於美國加州謝拉內華達山區，屬於優勝美地國家公園，其最壯觀的季節在春末，水量充沛，氣勢驚人。優勝美地瀑布全高為739公尺，一共可分為三段，瀑布的落差距離排名世界第六，雖然在外觀看來僅有上優勝美地瀑布與下優勝美地瀑布兩段，但事實上包括了中間的落差地帶，這三段分別是：上優勝美地瀑布、湍流區、下優勝美地瀑布。",
+                  "transportation": "",
+                  "languages": "",
+                  "feature_foods": "",
+                  "religious_culture": "",
+                  "tips": "",
+                  "operate_tips": "",
+                  "tour_city_id": 23161,
+                  "language_id": 3,
+                  "image": "https://d3ne5s9fv9p81l.cloudfront.net/images/TourCity201407111405106672_53c039f0b391d.jpg"
+                }
+              }
+            ],
+            "hotel_item": [],
+            "city_item": [],
+            "meal_item": [],
+            "ownexpense_item": []
+          },
+          {
+            "item_type": "meal",
+            "order": 7,
             "attraction_item": [],
             "hotel_item": [],
             "city_item": [],
@@ -829,25 +622,42 @@
           },
           {
             "item_type": "meal",
-            "order": 4,
+            "order": 7,
             "attraction_item": [],
             "hotel_item": [],
             "city_item": [],
             "meal_item": [
               {
-                "name": "rge",
-                "description": "ww",
-                "image_url": "www"
+                "name": "餐食：自理",
+                "description": "",
+                "image_url": ""
               }
             ],
             "ownexpense_item": []
           }
         ]
       }
+    ],
+    "images": [
+      {
+        "url": "201605021462210141_57278e5dc2657_watermark_800_800.jpg"
+      },
+      {
+        "url": "201605021462210250_57278ecab3204_watermark_800_800.jpg"
+      },
+      {
+        "url": "http://dn-tffimg.qbox.me/21/45/c98/b26/fb800629487bc3cee38931.jpg"
+      },
+      {
+        "url": "http://dn-tffimg.qbox.me/27/bf/3fa/628/86cc9c98e562763b74fe92.jpg"
+      },
+      {
+        "url": "http://dn-tffimg.qbox.me/95/8b/f8c/342/6614a7ff15cd2544cdde2d.jpg"
+      },
+      {
+        "url": "http://dn-tffimg.qbox.me/df/26/ca5/126/7a3d8c11749e9db6b0e670.jpg"
+      }
     ]
   }
 }
 ```
-
-
-
