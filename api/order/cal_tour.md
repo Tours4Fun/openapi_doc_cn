@@ -24,7 +24,7 @@
 		},
 		"rooms":[		//房间信息
 			{
-				"adult":2,
+				"adult":1,
 				"kid":0
 			},//房间1
 			{
@@ -36,51 +36,63 @@
 	
 ### 返回示例
 
-	{
-	  "code": 0,
-	  "msg": "",
-	  "data": {
-	    "retail": 798.4,    //总价  
-	    "currency": "USD",  //币种
-	    "product": {
-	      "product_id": 100009369,
-	      "product_line": "tour",       //产品线
-	      "product_base_price": 626.4,     //产品基本费用
-	      "product_upgrade_price": 172,  //产品升级项费用
-	      "upgrades": [
-	        {
-	          "name": "第二天行程选择",
-	          "price": [
-	            {
-	              "total": 38,
-	              "name": "A-西点军校-名牌购物中心 "
-	            },
-	            {
-	              "total": 34,
-	              "name": "B-纽约自由行"
-	            }
-	          ]
-	        },
-	        {
-	          "name": "机场",
-	          "price": [
-	            {
-	              "total": 40,
-	              "name": "4个人(11:01pm-8:59am)"
-	            }
-	          ]
-	        },
-	        {
-	          "name": "做测试用",
-	          "price": [
-	            {
-	              "total": 60,
-	              "name": "测试2"
-	            }
-	          ]
-	        }
-	      ],
-	      "product_price": 798.4               //产品总价
-	    }
-	  }
-	}
+      {
+          "code": 0,
+          "msg": "success",
+          "data": {
+              "retail": 533.74, // 总价
+              "currency": "USD", // 币种
+              "product": {
+                  "product_id": 101466879,
+                  "product_line": "tour", // 产品线
+                  "product_base_price": "1067.48", // 产品基本费用
+                  "product_upgrade_price": "172.00", // 产品升级项费用
+                  "product_price": 533.74,
+                  "upgrades": [
+                      {
+                          "name": "第二天行程选择",
+                          "price": [
+                              {
+                                  "total": 38,
+                                  "name": "A-西点军校-名牌购物中心 "
+                              },
+                              {
+                                  "total": 34,
+                                  "name": "B-纽约自由行"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "机场",
+                          "price": [
+                              {
+                                  "total": 40,
+                                  "name": "4个人(11:01pm-8:59am)"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "做测试用",
+                          "price": [
+                              {
+                                  "total": 60,
+                                  "name": "测试2"
+                              }
+                          ]
+                      }
+                  ],
+                  "room": [
+                      {
+                          "adult": 1,
+                          "kid": 0,
+                          "price": 533.74
+                      },
+                      {
+                          "adult": 1,
+                          "kid": 0,
+                          "price": 533.74
+                      }
+                  ]
+              }
+          }
+      }
