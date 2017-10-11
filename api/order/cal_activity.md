@@ -50,6 +50,14 @@
 	          "price": 0
 	        }
 	      ],
+	      "base_price": {
+                "adult_num": 1,
+                "kid_num": 1,
+                "single_adult_price": 170,
+                "single_kid_price": 125,
+                "total_adult_price": 170,
+                "total_kid_price": 125
+              },
 	      "product_price": 295
 	    }
 	  }
