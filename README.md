@@ -75,18 +75,35 @@ HTTP CODE 不管是否错误，均返回 200，由具体返回内容确定正确
 }
 ```
 
-# 重点数据结构
 
-| 数据     | 中文名  |             说明               |
-| :------: |:--------:|:------------------------------:|
-| [产品(product)](./datastruct/product.md)  |  产品  | 产品数据结构，产品根据产品线不同，会有不同的数据结构。   |
+## 错误状态码
 
-
+| CODE             |          MSG         |
+| -----------------|:--------------------:|
+| 10001|Sign Error|
+| 10002|Frequency Limit|
+| 10003|APP Has Not Activated|
+| 10004|Load APP Info Failed|
+| 10005|Permission Not Allow|
+| 10006|Black List|
+| 20001|Product Detail Not Found|
+| 20002|Product Availabilities Not Found|
+| 20003|Product Upgrades Not Found|
+| 20004|Search Product Failed|
+| 20005|Product Departure Not Found|
+| 20006|Product List Failed|
+| 20007|Parameter Error|
+| 20008|Product Ids To Much|
+| 30001|Add Order Failed|
+| 30002|Cal Price Error|
+| 30003|Get Order List Failed|
+| 30004|Get Order Detail Failed|
+| 30005|At least one adult per-room!|
+| 30006|Invalid Contact Information|
 
 # API列表
 
 ----
-
 
 | API类别    |  地址   |
 | ---------- |:--------:|

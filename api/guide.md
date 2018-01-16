@@ -1,11 +1,11 @@
 # 产品订购的流程
 
-### Step 0 : 根据[产品详情接口](./product/detail.md)构建产品介绍页面
+### Step 0 : 根据[产品详情接口](./product/v2/detail.md)构建产品介绍页面
 
 ****
 
 
-### Step 1 : 通过请求[可售日期接口](./product/availabilities.md)构建可选日期控件，例如
+### Step 1 : 通过请求[可售日期接口](./product/v2/availabilities.md)构建可选日期控件，例如
 ![](../file/availability.png)
 
 ****
@@ -22,7 +22,7 @@
 
 ****
 
-### Step 3 : 通过请求[升级项接口](./product/upgrades.md)，构建升级项选择控件，例如
+### Step 3 : 通过请求[升级项接口](./product/v2/upgrades.md)，构建升级项选择控件，例如
 
 ![](../file/upgrades.png)
 ![](../file/upgrades.png)
@@ -51,7 +51,7 @@
 
 	出行人信息需要填写的内容，是因应产品的不同而有差异的。
 	
-	在[产品详情接口](./product/detail.md)里 `base.product_passenger`字段，我们通过一个约定的数据结构来描述字段信息，以下是一个例子:
+	在[产品详情接口](./product/v2/detail.md)里 `passengerForm`字段，我们通过一个约定的数据结构来描述字段信息，以下是一个例子:
 	
 		"firstname_en": {
           "switch": "default",
