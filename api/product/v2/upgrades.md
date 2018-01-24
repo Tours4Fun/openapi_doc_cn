@@ -15,7 +15,7 @@
 | -------------- |:-------------:| ----:| :-----------------|
 | product_id     | int  |  是   | 产品ID号  |
 | departure_date     | date  |  是   | 出行日期(Y-m-d)  |
-| departure_date     | date  |  否   | 购买日期(Y-m-d)默认服务器当前日期  |
+| purchase_date     | date  |  否   | 购买日期(Y-m-d)默认服务器当前日期  |
 | currency     | string  |  否   | 货币类型默认'USD'  |
 
 
