@@ -35,89 +35,89 @@ V2版本 创单接口
 
 （以下请求参数适用于一日游，多日游产品线）
 ```
-	{
-        "product_id":102202692,  
-        "adult":1,          
-        "kid":1,            
-        "departure_date":"2019-01-16",  
-        "departure_address":"jhjhj",    
-        "upgrades":{        
-            "30100":["30577"]
+{
+    "product_id":102202692,  
+    "adult":1,          
+    "kid":1,            
+    "departure_date":"2019-01-16",  
+    "departure_address":"jhjhj",    
+    "upgrades":{        
+        "30100":["30577"]
+    },
+    "rooms":[       
+        {
+            "adult":2,
+            "kid":0,
+            "single_pairup":1      
+        }
+    ],
+    "contact":{     
+        "first_name":"a",
+        "last_name":"b",
+        "mobile":"1",
+        "email":"2@q.q"
+    },
+    "guest_info":[      
+        {
+            "type":"adult",
+            "firstname_en":"ghghg",
+            "mobile":"86-6767"
         },
-        "rooms":[       
-            {
-                "adult":2,
-                "kid":0,
-                "single_pairup":1      
-            }
-        ],
-        "contact":{     
-            "first_name":"a",
-            "last_name":"b",
-            "mobile":"1",
-            "email":"2@q.q"
-        },
-        "guest_info":[      
-            {
-                "type":"adult",
-                "firstname_en":"ghghg",
-                "mobile":"86-6767"
-            },
-            {
-                "type":"kid",
-                "firstname_en":"oooo",
-                "mobile":"86-67887"
-            }
-        ]
-    }
+        {
+            "type":"kid",
+            "firstname_en":"oooo",
+            "mobile":"86-67887"
+        }
+    ]
+}
 ```
 （以下参数适用于票务产品线）
 ```
-    {
-        "product_id":102202730,  
-        "adult":1,          
-        "kid":1,            
-        "departure_date":"2019-01-16",  
-        "departure_address":"jhjhj",    
-        "upgrades":{       
-            "219":["1375"],
-            "221":["1378"]
-        },
-        "tickets":[
-        	{
+{
+    "product_id":102202730,  
+    "adult":1,          
+    "kid":1,            
+    "departure_date":"2019-01-16",  
+    "departure_address":"jhjhj",    
+    "upgrades":{       
+        "219":["1375"],
+        "221":["1378"]
+    },
+    "tickets":[
+        {
             "sku_id":15021,
             "count":1
-        	}
-        ],
-        "contact":{     
-            "first_name":"a",
-            "last_name":"b",
-            "mobile":"1",
-            "email":"2@q.q"
+        }
+    ],
+    "contact":{     
+        "first_name":"a",
+        "last_name":"b",
+        "mobile":"1",
+        "email":"2@q.q"
+    },
+    "guest_info":[      
+        {
+            "type":"adult",
+            "firstname_en":"ghghg",
+            "mobile":"86-6767"
         },
-        "guest_info":[      
-            {
-                "type":"adult",
-                "firstname_en":"ghghg",
-                "mobile":"86-6767"
-            },
-            {
-                "type":"kid",
-                "firstname_en":"oooo",
-                "mobile":"86-67887"
-            }
-        ]
-    }
+        {
+            "type":"kid",
+            "firstname_en":"oooo",
+            "mobile":"86-67887"
+        }
+    ]
+}
 ```
 
 **返回示例**
 
 ```
-	{
-	  "code": 0,
-	  "msg": "",
-	  "data": {
-	    "order_id": 10004000
-	  }
+{
+	"code": 0,
+	"msg": "",
+	"data": {
+	   "order_id": 10004000
 	}
+}
 ```
