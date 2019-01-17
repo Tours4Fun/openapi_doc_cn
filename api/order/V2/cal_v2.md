@@ -24,42 +24,42 @@
 
 （以下请求参数适用于一日游，多日游产品线）
 ```
-    {
-        "product_id":102202692, 
-        "adult":2,  
-        "kid":0,        
-        "departure_date":"2019-01-16", 
-        "departure_address":"jhjhj",    
-        "upgrades":{       
-            "30100":["30577"]
-        },
-        "rooms":[       
-            {
-                "adult":2,
-                "kid":0
-            }
-        ]
-    }
+{
+    "product_id":102202692, 
+    "adult":2,  
+    "kid":0,        
+    "departure_date":"2019-01-16", 
+    "departure_address":"jhjhj",    
+    "upgrades":{       
+        "30100":["30577"]
+    },
+    "rooms":[       
+        {
+            "adult":2,
+            "kid":0
+        }
+    ]
+}
 ```
 （以下参数适用于票务产品线）
 ```
-    {
-		"product_id":9847,  //产品id
-		"adult":1,	//成人数量
-		"kid":1,		//小孩数量
-		"departure_date":"2017-02-22", //出发日期
-		"departure_address":"jhjhj",	//出发地点
-		"upgrades":{		//升级项
-			"43":["203"],
-			"30002":["30113"]
-		},
-		"tickets":[ // 票务信息 ticket only , sku_id : count
-        	{
-               "sku_id":15021,
-               "count":1
-            }
-        ]
-	}
+{
+    "product_id":9847,  //产品id
+    "adult":1,	//成人数量
+    "kid":1,		//小孩数量
+    "departure_date":"2017-02-22", //出发日期
+    "departure_address":"jhjhj",	//出发地点
+    "upgrades":{		//升级项
+        "43":["203"],
+        "30002":["30113"]
+    },
+    "tickets":[ // 票务信息 ticket only , sku_id : count
+        {
+            "sku_id":15021,
+            "count":1
+        }
+    ]
+}
 ```
 **结果返回示例**
 
