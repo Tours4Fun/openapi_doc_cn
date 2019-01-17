@@ -1,9 +1,11 @@
 
 # 订单API列表
 
+   V2 
+   
 | API                                   |         API地址       |    说明          |
 | --------------------------------------|:---------------------:|:-------------:|
-| [创建订单](./order/add_order_activity.md)        |  /v1/order/add  |  创建订单    |
-| [价格计算](./order/cal_activity.md)        |  /v1/order/cal  |  计算订单价格    |
-| [订单列表](./order/order_list.md)        |  /v1/order/list  |  获取订单列表    |
-| [订单详情](./order/order_detail.md)        |  /v1/order/detail  |  获取订单详情    |
+| [创建订单](./order/V2/add_order_v2.md)     |  /v2/order/add   |  创建订单        |
+| [价格计算](./order/V2/cal_v2.md)           |  /v2/order/cal   |  计算订单价格    |
+| [订单列表](./order/V2/order_list_v2.md)    |  /v2/order/list  |  获取订单列表    |
+| [订单详情](./order/V2/order_detail_v2.md)  |  /v2/order/detail|  获取订单详情    |
