@@ -39,24 +39,27 @@ V2版本 创单接口
     "product_id":102202692,  
     "adult":1,          
     "kid":1,            
-    "departure_date":"2019-01-16",  
-    "departure_address":"jhjhj",    
+    "departure_date":"2019-01-16",   //出团日期
+    "departure_address":"jhjhj",     //出团地点
     "upgrades":{        
-        "30100":["30577"]
+        "30100":["30577"]      //通过产品升级项接口获取到的 upgradesid : [ option_id ]
     },
+    //房间信息
     "rooms":[       
         {
-            "adult":2,
-            "kid":0,
-            "single_pairup":1      
+            "adult":2,             //成人人数
+            "kid":0,               //儿童人数
+            "single_pairup":0      //是否单人配房
         }
     ],
+    //联系人信息
     "contact":{     
         "first_name":"a",
         "last_name":"b",
         "mobile":"1",
         "email":"2@q.q"
     },
+    //出行人信息（可多个）
     "guest_info":[      
         {
             "type":"adult",
@@ -77,10 +80,10 @@ V2版本 创单接口
     "product_id":102202730,  
     "adult":1,          
     "kid":1,            
-    "departure_date":"2019-01-16",  
-    "departure_address":"jhjhj",    
+    "departure_date":"2019-01-16",   //出团日期
+    "departure_address":"jhjhj",     //出团地点
     "upgrades":{       
-        "219":["1375"],
+        "219":["1375"],   //通过产品升级项接口获取到的 upgradesid : [ option_id ]
         "221":["1378"]
     },
     "tickets":[
@@ -89,15 +92,17 @@ V2版本 创单接口
             "count":1
         }
     ],
-    "contact":{     
-        "first_name":"a",
+    //联系人信息
+    "contact":{
+        "first_name":"a",   
         "last_name":"b",
         "mobile":"1",
         "email":"2@q.q"
     },
-    "guest_info":[      
+    //出行人信息（可多个）
+    "guest_info":[
         {
-            "type":"adult",
+            "type":"adult",         
             "firstname_en":"ghghg",
             "mobile":"86-6767"
         },

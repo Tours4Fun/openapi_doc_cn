@@ -22,6 +22,28 @@
 
 **请求参数示例**
 
+（以下参数适用于票务产品线）
+```
+{
+    "product_id":9847,             //产品id
+    "adult":1,	                   //儿童数量
+    "kid":1,		               //小孩数量
+    "departure_date":"2017-02-22", //出发日期
+    "departure_address":"jhjhj",   //出发地点
+    "upgrades":{		//升级项
+        "43":["203"],
+        "30002":["30113"]
+    },
+    // 票务信息 ticket only
+    "tickets":[ 
+        {
+            "sku_id":15021,
+            "count":1
+        }
+    ]
+}
+```
+
 （以下请求参数适用于一日游，多日游产品线）
 ```
 {
@@ -31,32 +53,14 @@
     "departure_date":"2019-01-16", 
     "departure_address":"jhjhj",    
     "upgrades":{       
-        "30100":["30577"]
+        "30100":["30577"]   //通过产品升级项接口获取到的 upgradesid : [ option_id ]
     },
+    //房间信息
     "rooms":[       
         {
-            "adult":2,
-            "kid":0
-        }
-    ]
-}
-```
-（以下参数适用于票务产品线）
-```
-{
-    "product_id":9847,  //产品id
-    "adult":1,	//成人数量
-    "kid":1,		//小孩数量
-    "departure_date":"2017-02-22", //出发日期
-    "departure_address":"jhjhj",	//出发地点
-    "upgrades":{		//升级项
-        "43":["203"],
-        "30002":["30113"]
-    },
-    "tickets":[ // 票务信息 ticket only , sku_id : count
-        {
-            "sku_id":15021,
-            "count":1
+            "adult":2,          //成人人数
+            "kid":0             //儿童人数
+            "single_pairup":0   //是否单人配房
         }
     ]
 }
