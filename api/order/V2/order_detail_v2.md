@@ -6,7 +6,7 @@
 
 ### API地址
 
-POST   /v2/order/detail
+    POST   /v2/order/detail
 	
 **参数**
 
@@ -28,6 +28,7 @@ POST   /v2/order/detail
 	    "order_id":1672
 	}
 ```
+
 **返回示例**
 ```
 {

@@ -6,8 +6,8 @@ V2版本 创单接口
 
 ### API地址
 
-POST	/v2/order/add
-	
+    POST	/v2/order/add
+
 **参数**
 
 | 参数           | 类型          | 是否必须 | 描述             |
@@ -29,7 +29,10 @@ POST	/v2/order/add
 | code | integer|   0, -1 成功, 失败| 
 | msg  | string | success |
 | data | string |  true, false msg |
-**示例**
+
+
+**请求参数示例**
+
 （以下请求参数适用于一日游，多日游产品线）
 ```
 	{
@@ -106,7 +109,9 @@ POST	/v2/order/add
         ]
     }
 ```
-### 返回示例
+
+**返回示例**
+
 ```
 	{
 	  "code": 0,
