@@ -26,31 +26,30 @@
 
 ### Request parameter description
 
-| Field                             | Type          |     Description               |
-| -------------------               |:-------------:|  :-----------------------     |
-| product_id                        | int           |     Page page number[default:1]                      |
-| name                              | int           |     Number of paged data[default:20,max:50]          |
-| image_url                         | int           |     Number of paged data[default:20,max:50]          |
-| product_line                      | int           |     Number of paged data[default:20,max:50]          |
-| duration                          | int           |     Number of paged data[default:20,max:50]          |
-| duration_type                     | int           |     Number of paged data[default:20,max:50]          |
-| sub_region                        | int           |     Number of paged data[default:20,max:50]          |
-| sub_region_chinese_name           | int           |     Number of paged data[default:20,max:50]          |
-| region                            | int           |     Number of paged data[default:20,max:50]          |
-| region_chinese_name               | int           |     Number of paged data[default:20,max:50]          |
-| departure_city                    | int           |     Number of paged data[default:20,max:50]          |
-| departure_city.id                 | int           |     Number of paged data[default:20,max:50]          |
-| departure_city.name_en            | int           |     Number of paged data[default:20,max:50]          |
-| departure_city.name               | int           |     Number of paged data[default:20,max:50]          |
-| return_city                       | int           |     Number of paged data[default:20,max:50]          |
-| return_city.id                    | int           |     Number of paged data[default:20,max:50]          |
-| return_city.name_en               | int           |     Number of paged data[default:20,max:50]          |
-| return_city.name                  | int           |     Number of paged data[default:20,max:50]          |
-| visited_city                      | int           |     Number of paged data[default:20,max:50]          |
-| visited_city.id                   | int           |     Number of paged data[default:20,max:50]          |
-| visited_city.name_en              | int           |     Number of paged data[default:20,max:50]          |
-| visited_city.name                 | int           |     Number of paged data[default:20,max:50]          |
-| last_update                       | int           |     Number of paged data[default:20,max:50]          |
+| Field                             |     Description                                   |
+| -------------------               |  :-----------------------                         |
+| product_id                        |     Product Unique Id                             |
+| name                              |     Product Name                                  |
+| image_url                         |     Product Image Url                             |
+| duration                          |     Product Duration                              |
+| duration_type                     |     Product Duration Unit[min,hour,day]           |
+| sub_region                        |     Product Sub Region                            |
+| sub_region_chinese_name           |     Product Sub Region Chinese Name               |
+| region                            |     Product Region                                |
+| region_chinese_name               |     Product Region Name                           |
+| departure_city                    |     Departure City                                |
+| departure_city.id                 |     Id                                            |
+| departure_city.name_en            |     English Name                                  |
+| departure_city.name               |     Chinese Name                                  |
+| return_city                       |     Return City                                   |
+| return_city.id                    |     Id                                            |
+| return_city.name_en               |     English Name                                  |
+| return_city.name                  |     Chinese Name                                  |
+| visited_city                      |     Visited City                                  |
+| visited_city.id                   |     Id                                            |
+| visited_city.name_en              |     English Name                                  |
+| visited_city.name                 |     Chinese Name                                  |
+| last_update                       |     Product Last Update Time                      |
 
 
 ### Interface return
@@ -67,7 +66,6 @@
                     "product_id": 101461998,
                     "name": "(12天)哥伦比亚，厄瓜多尔，秘鲁三国休闲之旅",
                     "image_url": "//images/201510081444329046_5616b6565d06a_watermark_800_800.jpg",
-                    "product_line": "ttd",
                     "duration": 12,
                     "duration_type": "day",
                     "sub_region": "",
