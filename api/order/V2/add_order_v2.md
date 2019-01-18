@@ -28,7 +28,7 @@ V2版本 创单接口
 | -------------- |:-------------:|:-----------------:|
 | code | integer|   0, -1 成功, 失败| 
 | msg  | string | success |
-| data | string |  true, false msg |
+| data | array |  true, false msg |
 
 
 **请求参数示例**

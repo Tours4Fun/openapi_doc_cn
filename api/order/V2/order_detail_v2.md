@@ -20,7 +20,7 @@
 | -------------- |:-------------:|:-----------------:|
 | code | integer|   0, -1 成功, 失败| 
 | msg  | string | success |
-| data | string |  array |
+| data | array |  array |
 	
 **请求参数示例**
 ```
