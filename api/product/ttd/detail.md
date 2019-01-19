@@ -31,19 +31,105 @@
 | product_type                      |     Product Type [See Table 1 For Details.]       |
 | name                              |     Product Name                                  |
 | departure_city                    |     Departure City                                |
-| departure_city.id                 |     Id                                            |
+| departure_city.id                 |     City Id                                       |
 | departure_city.name_en            |     English Name                                  |
 | departure_city.name               |     Chinese Name                                  |
 | return_city                       |     Return City                                   |
-| return_city.id                    |     Id                                            |
+| return_city.id                    |     City Id                                       |
 | return_city.name_en               |     English Name                                  |
 | return_city.name                  |     Chinese Name                                  |
 | activity_type                     |     Type Of Activity                              |
 | duration                          |     Product Duration                              |
 | duration_type                     |     Product Duration Unit[min,hour,day]           |
 | is_vega_show                      |     Show Ticket[0=>No, 1=>Yes]                    |
-| product_region                     |     Type Of Activity                              |
-| product_sub_region                     |     Type Of Activity                              |
+| product_region                    |     Product Region Name                           |
+| product_sub_region                |     Sub Region Name                               |
+| currency                          |     Product Currency                              |
+| departure_location_status         |     Type Of Activity                              |
+| end_location_status               |     Type Of Activity                              |
+| language                          |     Service Language                              |
+| image_url                         |     Product Image Url                             |
+| video_url                         |     Product Video Url                             |
+
+
+    info
+| Field                             |     Description                                   |
+| -------------------               |  :-----------------------                         |
+| highlights                        |     Product Highlights                            |
+| summary                           |     Trip Description       |
+| notice                            |     Notice                                  |
+| includes                          |     Cost Includes                                |
+| excludes                          |     Cost Does Not Include                                            |
+| package_special_note              |     Participation Note                                  |
+| price_special_note                |     Price Note                                  |
+| tips                              |     Tips                                   |
+| how_to_use                        |     E-ticket Usage                                  |
+| airport_transfer_info             |     Transfer Information                                  |
+| contain_airport_transfer          |     0: not contain pick up and drop off; 1: contain pick up and drop off; 2: contain pick up; 3: contain drop off                              |
+| is_welcome_board                  |     Pick-up Card[1=>Yes, 0=>No]                              |
+| flight_time_limit                 |     Flight Information Time Limit Unit[day]           |
+| attractions                       |     Visited Attractions                   |
+| attractions.city_id               |     City Id                    |
+| attractions.name                  |     Attractions Name                    |
+| attractions.description           |     Attraction Description                    |
+| cities                            |     Visited City                    |
+| cities.city_id                    |     City Id                    |
+| cities.name                       |     City Name                    |
+| cities.description                |     City Description                    |
+| ownexpenses                       |     Optional Item                    |
+| ownexpenses.ownexpense_id         |     Item Id                    |
+| ownexpenses.name                  |     Item Name                    |
+| ownexpenses.description           |     Item Description                    |
+| ownexpenses.price                 |     Item Price Description                    |
+| ownexpenses.duration              |     Item Duration[day]                    |
+| ownexpenses.tips                  |     Item Tips                    |
+
+    departure
+| Field                             |     Description                                   |
+| -------------------               |  :-----------------------                         |
+| start_locations/end_locations                       |     Product Highlights                            |
+| location_status                           |     Trip Description       |
+| locations                            |     Notice                                  |
+| -departure_id                          |     Cost Includes                                |
+| -start_time                          |     Cost Includes                                |
+| -end_time                          |     Cost Includes                                |
+| -region                          |     Cost Includes                                |
+| -location                          |     Cost Includes                                |
+| -address                          |     Cost Includes                                |
+| -tips                          |     Cost Includes                                |
+| -longitude                          |     Cost Includes                                |
+| -latitude                          |     Cost Includes                                |
+| -operations                          |     Cost Includes                                |
+| --start_date                          |     Cost Includes                                |
+| --end_date                          |     Cost Includes                                |
+| --sunday                          |     Cost Includes                                |
+| --monday                          |     Cost Includes                                |
+| --tuesday                          |     Cost Includes                                |
+| --wednesday                          |     Cost Includes                                |
+| --thursday                          |     Cost Includes                                |
+| --friday                          |     Cost Includes                                |
+| --saturday                          |     Cost Includes                                |
+
+
+    passengerForm
+| Field                             |     Description                                   |
+| -------------------               |  :-----------------------                         |
+| name                              |     Passenger Info Name                           |
+| type                              |     Form Input Type                               |
+| options                           |     Input Options                                 |
+
+    finedPolicy
+| Field                             |     Description                                   |
+| -------------------               |  :-----------------------                         |
+| sku_id                              |     Passenger Info Name                           |
+| fined_policy                              |     Form Input Type                               |
+| fined_policy.near_day                              |     Form Input Type                               |
+| fined_policy                              |     Form Input Type                               |
+| fined_policy                              |     Form Input Type                               |
+| fined_policy                              |     Form Input Type                               |
+| fined_policy                              |     Form Input Type                               |
+| options                           |     Input Options                                 |
+
 
 
 
@@ -56,7 +142,7 @@
             "102851680": {
                 "basic": {
                     "product_id": 102851680,
-                    "product_type": 2,
+                    "product_type": 11,
                     "name": "Testing Alpesh product",
                     "departure_city": [
                         {
@@ -77,20 +163,14 @@
                     "duration": 3,
                     "duration_type": "hour",
                     "is_vega_show": 0,
-                    "product_region": 1,
-                    "product_sub_region": 11,
+                    "product_region": "美国",
+                    "product_sub_region": "美西",
                     "currency": "EUR",
                     "departure_location_status": 0,
                     "end_location_status": 3,
                     "language": [
-                        {
-                            "language_id": 46,
-                            "name": "English Audio"
-                        },
-                        {
-                            "language_id": 47,
-                            "name": "English Live"
-                        }
+                        "English Audio",
+                        "English Live"
                     ],
                     "image_url": [
                         "http://img1.dev5.tff.com/f1/windtour/0f/9d/tiyan3.jpg",
@@ -99,7 +179,7 @@
                     "video_url": ""
                 },
                 "info": {
-                    "brief_description": "*途风和美国洛杉矶出团数量最大的巴士地接公司强强合作！*由洛杉矶最具经验的专职双语导游带您游览环球影城以及好莱坞，您将在这里领略到著名影视城的独特魅力。",
+                    "highlights": "*途风和美国洛杉矶出团数量最大的巴士地接公司强强合作！*由洛杉矶最具经验的专职双语导游带您游览环球影城以及好莱坞，您将在这里领略到著名影视城的独特魅力。",
                     "summary": "Itinerary summery",
                     "notice": "【友情提示】* 如果您准备假日(新年/圣诞)期间外出旅行，请尽量提前一个月预订该团。* 如果您在出发前需要临时更改上车地点，请务必于出团日期前五天告知我们，以便我们进行协调安排；如果未提前五天进行告知，将不予更改，请您悉知，感谢您的理解及支持！",
                     "includes": "空调大巴或中巴免费地面接送(请参考接送时间和地点)",
@@ -309,58 +389,17 @@
     
     Table 1.
     
-    | product_sub_type | product_type | type_name      |
-    |---------------   |:-----------: |----------------|
-    |  7               |      1       | 一日游          |
-    |  8               |      1       | 接驳            |
-    |  9               |      1       | 酒店            |
-    | 10               |      1       | WIFI           |
-    | 11               |      2       | 票务            |
-    | 12               |      3       | 跟团游          |
-    | 13               |      4       | 机票            |
-    | 14               |      5       | 签证            |
-    | 15               |      6       | 邮轮            |
-    
-    Table 2.
-    | product_region 	| product_sub_region			| name               |
-    |----				|:------:						|--------------------|
-    |  1 				|     						    | 美国               |
-    |  2 				|    							| 加拿大             |
-    |  3 				|    							| 拉美               |
-    |  4 				|    							| 欧洲               |
-    |  5 				|    							| 澳新               |
-    |  7 				|    							| 非洲               |
-    |  8 				|    							| 亚洲               |
-    |  9 				|    							| 海岛目的地         |
-    | 10 				|    							| 其他               |
-    | 11 				|      1 						| 美西               |
-    | 12 				|      1 						| 美东               |
-    | 13 				|      1 						| 美中西             |
-    | 14 				|      1 						| 佛州               |
-    | 15 				|      1 						| 夏威夷             |
-    | 16 				|      1 						| 阿拉斯加           |
-    | 17 				|      1 						| 美南               |
-    | 18 				|      2 						| 加东               |
-    | 19 				|      2 						| 加西               |
-    | 20 				|      3 						| 墨西哥             |
-    | 21 				|      3 						| 其他拉美地区       |
-    | 23 				|      5 						| 澳大利亚           |
-    | 24 				|      5 						| 新西兰             |
-    | 37 				|      7 						| 非洲               |
-    | 38 				|      8 						| 亚洲其它           |
-    | 39 				|      8 						| 中国               |
-    | 40 				|      9 						| 海岛               |
-    | 41 				|      9 						| 大洋洲             |
-    | 42 				|     10 						| 其他               |
-    | 43 				|      4 						| 北欧               |
-    | 44 				|      4 						| 中欧               |
-    | 45 				|      4 						| 东欧               |
-    | 46 				|      4 						| 西欧               |
-    | 47 				|      4 						| 南欧               |
-    | 48 				|      4 						| 英国               |
-    | 49 				|      4 						| 俄罗斯             |
-    | 50 				|      3 						| 古巴               |
-    | 51 				|      4 						| 爱尔兰             |
+| product_type     | type_name      | product_sub_type|
+|---------------   |:-------------: |----------------|
+|  7               |      TTD       | 一日游          |
+|  8               |      TTD       | 接驳            |
+|  9               |      TTD       | 酒店            |
+| 10               |      TTD       | WIFI           |
+| 11               |      票务       | 票务            |
+| 12               |      跟团游     | 跟团游          |
+| 13               |      机票       | 机票            |
+| 14               |      签证       | 签证            |
+| 15               |      邮轮       | 邮轮            |
 
 
 
