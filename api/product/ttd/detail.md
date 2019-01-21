@@ -24,7 +24,7 @@
 
 ### Request parameter description
 
-    basic
+    basic[Product basic properties]
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
 | product_id                        |     Product Unique Id                             |
@@ -45,14 +45,14 @@
 | product_region                    |     Product Region Name                           |
 | product_sub_region                |     Sub Region Name                               |
 | currency                          |     Product Currency                              |
-| departure_location_status         |     Type Of Activity                              |
-| end_location_status               |     Type Of Activity                              |
+| departure_location_status         |     [1=>Fixed location+user to select;2=>Fixed location+only show;3=>user fillin]Same as departure.location_status                              |
+| end_location_status               |     [1=>Fixed location+user to select;2=>Fixed location+only show;3=>user fillin]Same as departure.location_status                              |
 | language                          |     Service Language                              |
 | image_url                         |     Product Image Url                             |
 | video_url                         |     Product Video Url                             |
 
 
-    info
+    info[Product description]
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
 | highlights                        |     Product Highlights                            |
@@ -84,51 +84,64 @@
 | ownexpenses.duration              |     Item Duration[day]                    |
 | ownexpenses.tips                  |     Item Tips                    |
 
-    departure
+    departure[Departure/end time and place]
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
-| start_locations/end_locations                       |     Product Highlights                            |
-| location_status                           |     Trip Description       |
-| locations                            |     Notice                                  |
-| -departure_id                          |     Cost Includes                                |
-| -start_time                          |     Cost Includes                                |
-| -end_time                          |     Cost Includes                                |
-| -region                          |     Cost Includes                                |
-| -location                          |     Cost Includes                                |
-| -address                          |     Cost Includes                                |
-| -tips                          |     Cost Includes                                |
-| -longitude                          |     Cost Includes                                |
-| -latitude                          |     Cost Includes                                |
-| -operations                          |     Cost Includes                                |
-| --start_date                          |     Cost Includes                                |
-| --end_date                          |     Cost Includes                                |
-| --sunday                          |     Cost Includes                                |
-| --monday                          |     Cost Includes                                |
-| --tuesday                          |     Cost Includes                                |
-| --wednesday                          |     Cost Includes                                |
-| --thursday                          |     Cost Includes                                |
-| --friday                          |     Cost Includes                                |
-| --saturday                          |     Cost Includes                                |
+| start_locations/end_locations     |     Departure/end time and location                            |
+| location_status                   |     Refer to basic's departure_location_status       |
+| locations                         |          --                             |
+| -departure_id                     |     Departure id                                |
+| -start_time                       |     Start time                                |
+| -end_time                         |     End time                                |
+| -region                           |     Area                               |
+| -location                         |     Location                                |
+| -address                          |     Address                                |
+| -tips                             |     Tips                                |
+| -longitude                        |     Longitude                                |
+| -latitude                         |     Latitude                                |
+| -operations                       |     Available time                                |
+| --start_date                      |     Start date                                |
+| --end_date                        |     End date                                |
+| --sunday                          |     [1=>sunday usable,0=>not]                                |
+| --monday                          |     [1=>monday usable,0=>not]                                 |
+| --tuesday                         |     [1=>tuesday usable,0=>not]                                |
+| --wednesday                       |     [1=>wednesday usable,0=>not]                                |
+| --thursday                        |     [1=>thursday usable,0=>not]                                |
+| --friday                          |     [1=>friday usable,0=>not]                                |
+| --saturday                        |     [1=>saturday usable,0=>not]                                |
 
 
-    passengerForm
+    skuInfo[Product optional sku info]
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
-| name                              |     Passenger Info Name                           |
+| sku_id                            |     Sku unique Id                           |
+| display_name                      |     Display name                               |
+| sku_name                          |     Sku name, Splicing according to attributes                               |
+| min_age                           |     Minimum age limit[0=>not limit]                               |
+| max_age                           |     Maximum age limit[0=>not limit]                               |
+| min_days_before_departure         |     Minimum purchase days in advance                               |
+| min_guest_number                  |     Minimum purchase quantity                               |
+| max_guest_number                  |     Maximum purchase quantity                               |
+| sold_with_other_sku               |     Can not be booked separately, need to be sold with other sku                               |
+
+
+    passengerForm[Traveler is scheduled to fill in the information]
+| Field                             |     Description                                   |
+| -------------------               |  :-----------------------                         |
+| name                              |     Display name                           |
 | type                              |     Form Input Type                               |
 | options                           |     Input Options                                 |
 
-    finedPolicy
+    finedPolicy[Cancel modification of penalty rules]
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
-| sku_id                              |     Passenger Info Name                           |
-| fined_policy                              |     Form Input Type                               |
-| fined_policy.near_day                              |     Form Input Type                               |
-| fined_policy                              |     Form Input Type                               |
-| fined_policy                              |     Form Input Type                               |
-| fined_policy                              |     Form Input Type                               |
-| fined_policy                              |     Form Input Type                               |
-| options                           |     Input Options                                 |
+| sku_id                            |     Sku id                           |
+| fined_policy                      |     Cancel modification of penalty rules                               |
+| near_day                          |     Number of days to start the rule                               |
+| far_day                           |     Rule end days                               |
+| fined_mode                        |     [1=>% of total group fee;2=>A fixed fee is charged per person;3=>A fixed handling fee per order]                               |
+| value                             |     Fee ratio or amount                               |
+| currency                          |     Amount of currency                               |
 
 
 
@@ -277,6 +290,30 @@
                         "locations": []
                     }
                 },
+                "skuInfo": [
+                     {
+                         "sku_id": 553,
+                         "display_name": "2b",
+                         "sku_name": "时间:19:00|时长:120 hours|test other|成人",
+                         "min_age": 0,
+                         "max_age": 0,
+                         "min_days_before_departure": 0,
+                         "min_guest_number": 1,
+                         "max_guest_number": 3,
+                         "sold_with_other_sku": "557,558,559"
+                     },
+                     {
+                         "sku_id": 554,
+                         "display_name": "",
+                         "sku_name": "时间:15:00|时长:120 hours|test other|成人",
+                         "min_age": 0,
+                         "max_age": 0,
+                         "min_days_before_departure": 0,
+                         "min_guest_number": 1,
+                         "max_guest_number": 3,
+                         "sold_with_other_sku": ""
+                     }
+                ],
                 "passengerForm": [
                     {
                         "name": "firstname_en",
