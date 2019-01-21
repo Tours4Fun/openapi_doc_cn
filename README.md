@@ -110,7 +110,7 @@ HTTP CODE 不管是否错误，均返回 200，由具体返回内容确定正确
 |  产品API   | [前往查看](./api/product.md) |
 |  携程分销API   | [前往查看](./api/ctrip.md) |
 |  订单API   | [前往查看](./api/order.md) |
-|  TTD Product API (Include: info,price,order)  | [Click  to view](./api/ttd_api_list.md) |
+|  TTD Product API (产品信息、产品价格、订单相关)  | [点击查看](./api/ttd_api_list.md) |
 
 # 订购流程指南
 

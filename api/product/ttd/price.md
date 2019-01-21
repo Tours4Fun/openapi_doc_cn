@@ -27,7 +27,7 @@
     	}
     }
 
-### Request parameter description
+### Return field description
 
     price[Product display price]
 | Field                             |     Description                                   |

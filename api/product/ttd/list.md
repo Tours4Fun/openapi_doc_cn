@@ -24,7 +24,7 @@
     	"lastUpdate":1547748250
     }
 
-### Request parameter description
+### Return field description
 
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
@@ -38,17 +38,17 @@
 | region                            |     Product Region                                |
 | region_chinese_name               |     Product Region Name                           |
 | departure_city                    |     Departure City                                |
-| departure_city.id                 |     Id                                            |
-| departure_city.name_en            |     English Name                                  |
-| departure_city.name               |     Chinese Name                                  |
+| -id                               |     Id                                            |
+| -name_en                          |     English Name                                  |
+| -name                             |     Chinese Name                                  |
 | return_city                       |     Return City                                   |
-| return_city.id                    |     Id                                            |
-| return_city.name_en               |     English Name                                  |
-| return_city.name                  |     Chinese Name                                  |
+| -id                               |     Id                                            |
+| -name_en                          |     English Name                                  |
+| -name                             |     Chinese Name                                  |
 | visited_city                      |     Visited City                                  |
-| visited_city.id                   |     Id                                            |
-| visited_city.name_en              |     English Name                                  |
-| visited_city.name                 |     Chinese Name                                  |
+| -id                               |     Id                                            |
+| -name_en                          |     English Name                                  |
+| -name                             |     Chinese Name                                  |
 | last_update                       |     Product Last Update Time                      |
 
 
