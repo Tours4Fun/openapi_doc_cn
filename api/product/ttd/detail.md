@@ -22,67 +22,67 @@
     	"returnFields":["basic", "info", "departure", "skuInfo","passengerForm","finedPolicy"]
     }
 
-### Request parameter description
+### Return field description
 
     basic[Product basic properties]
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
-| product_id                        |     Product Unique Id                             |
-| product_type                      |     Product Type [See Table 1 For Details.]       |
-| name                              |     Product Name                                  |
-| departure_city                    |     Departure City                                |
-| departure_city.id                 |     City Id                                       |
-| departure_city.name_en            |     English Name                                  |
-| departure_city.name               |     Chinese Name                                  |
-| return_city                       |     Return City                                   |
-| return_city.id                    |     City Id                                       |
-| return_city.name_en               |     English Name                                  |
-| return_city.name                  |     Chinese Name                                  |
-| activity_type                     |     Type Of Activity                              |
-| duration                          |     Product Duration                              |
-| duration_type                     |     Product Duration Unit[min,hour,day]           |
-| is_vega_show                      |     Show Ticket[0=>No, 1=>Yes]                    |
-| product_region                    |     Product Region Name                           |
-| product_sub_region                |     Sub Region Name                               |
-| currency                          |     Product Currency                              |
+| product_id                        |     Product unique id                             |
+| product_type                      |     Product type [See Table 1 For Details.]       |
+| name                              |     Product name                                  |
+| departure_city                    |     Departure city                                |
+| departure_city.id                 |     City id                                       |
+| departure_city.name_en            |     English name                                  |
+| departure_city.name               |     Chinese name                                  |
+| return_city                       |     Return city                                   |
+| return_city.id                    |     City id                                       |
+| return_city.name_en               |     English name                                  |
+| return_city.name                  |     Chinese name                                  |
+| activity_type                     |     Type of activity                              |
+| duration                          |     Product duration                              |
+| duration_type                     |     Product duration unit[min,hour,day]           |
+| is_vega_show                      |     Show ticket[0=>No, 1=>Yes]                    |
+| product_region                    |     Product region name                           |
+| product_sub_region                |     Sub region name                               |
+| currency                          |     Product currency                              |
 | departure_location_status         |     [1=>Fixed location+user to select;2=>Fixed location+only show;3=>user fillin]Same as departure.location_status                              |
 | end_location_status               |     [1=>Fixed location+user to select;2=>Fixed location+only show;3=>user fillin]Same as departure.location_status                              |
-| language                          |     Service Language                              |
-| image_url                         |     Product Image Url                             |
-| video_url                         |     Product Video Url                             |
+| language                          |     Service language                              |
+| image_url                         |     Product image Url                             |
+| video_url                         |     Product video Url                             |
 
 
     info[Product description]
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
-| highlights                        |     Product Highlights                            |
-| summary                           |     Trip Description       |
+| highlights                        |     Product highlights                            |
+| summary                           |     Trip description       |
 | notice                            |     Notice                                  |
-| includes                          |     Cost Includes                                |
-| excludes                          |     Cost Does Not Include                                            |
-| package_special_note              |     Participation Note                                  |
-| price_special_note                |     Price Note                                  |
+| includes                          |     Cost includes                                |
+| excludes                          |     Cost does not include                                            |
+| package_special_note              |     Participation note                                  |
+| price_special_note                |     Price note                                  |
 | tips                              |     Tips                                   |
-| how_to_use                        |     E-ticket Usage                                  |
-| airport_transfer_info             |     Transfer Information                                  |
+| how_to_use                        |     E-ticket usage                                  |
+| airport_transfer_info             |     Transfer information                                  |
 | contain_airport_transfer          |     0: not contain pick up and drop off; 1: contain pick up and drop off; 2: contain pick up; 3: contain drop off                              |
-| is_welcome_board                  |     Pick-up Card[1=>Yes, 0=>No]                              |
-| flight_time_limit                 |     Flight Information Time Limit Unit[day]           |
-| attractions                       |     Visited Attractions                   |
-| attractions.city_id               |     City Id                    |
-| attractions.name                  |     Attractions Name                    |
-| attractions.description           |     Attraction Description                    |
-| cities                            |     Visited City                    |
-| cities.city_id                    |     City Id                    |
-| cities.name                       |     City Name                    |
-| cities.description                |     City Description                    |
-| ownexpenses                       |     Optional Item                    |
-| ownexpenses.ownexpense_id         |     Item Id                    |
-| ownexpenses.name                  |     Item Name                    |
-| ownexpenses.description           |     Item Description                    |
-| ownexpenses.price                 |     Item Price Description                    |
-| ownexpenses.duration              |     Item Duration[day]                    |
-| ownexpenses.tips                  |     Item Tips                    |
+| is_welcome_board                  |     Pick-up card[1=>Yes, 0=>No]                              |
+| flight_time_limit                 |     Flight information time limit unit[day]           |
+| attractions                       |     Visited attractions                   |
+| attractions.city_id               |     City id                    |
+| attractions.name                  |     Attractions name                    |
+| attractions.description           |     Attraction description                    |
+| cities                            |     Visited city                    |
+| cities.city_id                    |     City id                    |
+| cities.name                       |     City name                    |
+| cities.description                |     City description                    |
+| ownexpenses                       |     Optional item                    |
+| ownexpenses.ownexpense_id         |     Item id                    |
+| ownexpenses.name                  |     Item name                    |
+| ownexpenses.description           |     Item description                    |
+| ownexpenses.price                 |     Item price description                    |
+| ownexpenses.duration              |     Item duration[day]                    |
+| ownexpenses.tips                  |     Item tips                    |
 
     departure[Departure/end time and place]
 | Field                             |     Description                                   |
@@ -129,8 +129,8 @@
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
 | name                              |     Display name                           |
-| type                              |     Form Input Type                               |
-| options                           |     Input Options                                 |
+| type                              |     Form input type                               |
+| options                           |     Input options                                 |
 
     finedPolicy[Cancel modification of penalty rules]
 | Field                             |     Description                                   |
