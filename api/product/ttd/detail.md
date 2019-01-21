@@ -31,13 +31,13 @@
 | product_type                      |     Product type [See Table 1 For Details.]       |
 | name                              |     Product name                                  |
 | departure_city                    |     Departure city                                |
-| departure_city.id                 |     City id                                       |
-| departure_city.name_en            |     English name                                  |
-| departure_city.name               |     Chinese name                                  |
+| -id                               |     City id                                       |
+| -name_en                          |     English name                                  |
+| -name                             |     Chinese name                                  |
 | return_city                       |     Return city                                   |
-| return_city.id                    |     City id                                       |
-| return_city.name_en               |     English name                                  |
-| return_city.name                  |     Chinese name                                  |
+| -id                               |     City id                                       |
+| -name_en                          |     English name                                  |
+| -name                             |     Chinese name                                  |
 | activity_type                     |     Type of activity                              |
 | duration                          |     Product duration                              |
 | duration_type                     |     Product duration unit[min,hour,day]           |
@@ -69,20 +69,20 @@
 | is_welcome_board                  |     Pick-up card[1=>Yes, 0=>No]                              |
 | flight_time_limit                 |     Flight information time limit unit[day]           |
 | attractions                       |     Visited attractions                   |
-| attractions.city_id               |     City id                    |
-| attractions.name                  |     Attractions name                    |
-| attractions.description           |     Attraction description                    |
+| -city_id                          |     City id                    |
+| -name                             |     Attractions name                    |
+| -description                      |     Attraction description                    |
 | cities                            |     Visited city                    |
-| cities.city_id                    |     City id                    |
-| cities.name                       |     City name                    |
-| cities.description                |     City description                    |
+| -city_id                          |     City id                    |
+| -name                             |     City name                    |
+| -description                      |     City description                    |
 | ownexpenses                       |     Optional item                    |
-| ownexpenses.ownexpense_id         |     Item id                    |
-| ownexpenses.name                  |     Item name                    |
-| ownexpenses.description           |     Item description                    |
-| ownexpenses.price                 |     Item price description                    |
-| ownexpenses.duration              |     Item duration[day]                    |
-| ownexpenses.tips                  |     Item tips                    |
+| -ownexpense_id                    |     Item id                    |
+| -name                             |     Item name                    |
+| -description                      |     Item description                    |
+| -price                            |     Item price description                    |
+| -duration                         |     Item duration[day]                    |
+| -tips                             |     Item tips                    |
 
     departure[Departure/end time and place]
 | Field                             |     Description                                   |
@@ -137,11 +137,11 @@
 | -------------------               |  :-----------------------                         |
 | sku_id                            |     Sku id                           |
 | fined_policy                      |     Cancel modification of penalty rules                               |
-| near_day                          |     Number of days to start the rule                               |
-| far_day                           |     Rule end days                               |
-| fined_mode                        |     [1=>% of total group fee;2=>A fixed fee is charged per person;3=>A fixed handling fee per order]                               |
-| value                             |     Fee ratio or amount                               |
-| currency                          |     Amount of currency                               |
+| -near_day                         |     Number of days to start the rule                               |
+| -far_day                          |     Rule end days                               |
+| -fined_mode                       |     [1=>% of total group fee;2=>A fixed fee is charged per person;3=>A fixed handling fee per order]                               |
+| -value                            |     Fee ratio or amount                               |
+| -currency                         |     Amount of currency                               |
 
 
 
