@@ -84,7 +84,8 @@
 | -duration                         |     Item duration[day]                    |
 | -tips                             |     Item tips                    |
 
-    <a name="product_departure">departure[Departure/end time and place]<a/>
+<a name="product_departure">departure[Departure/end time and place]<a/>
+
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
 | start_locations/end_locations     |     Departure/end time and location                            |
