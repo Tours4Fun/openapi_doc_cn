@@ -14,8 +14,8 @@
 | ------------------- |:-------------:| ------------:| :-----------------------|
 | product_id          | int           |     Yes      |   Product id         |
 | departure_date      | date          |     Yes      |   Travel date          |
-| departure_address   | string        |     Yes      |   Departure address [Choose from departure](../../product/ttd/detail.md#product_departure)|
-| end_address         | string        |     Yes      |   End address|
+| departure_address   | string        |     Yes      |   Departure address [Choose from departure of product detail info]|
+| end_address         | string        |     Yes      |   End address [Choose from departure of product detail info]|
 | sku_info            | array         |     Yes      |   --|
 | -sku_id             | int           |     Yes      |   Sku id|
 | -count              | int           |     Yes      |   The number of sku purchases|
