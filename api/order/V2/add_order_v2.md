@@ -30,7 +30,7 @@ V2版本 创单接口
 | -last_name       | string     |  是   | 姓|
 | -mobile          |   string   |  是   | 电话|
 | -email           | string     |  是   | 邮箱|
-| guest_info  | array     |  是   | 出行人信息|
+| guest_info  | array     |  是   | 出行人信息（此参数根据产品获取的PassengerForm变化而不同）|
 
 **返回**
 

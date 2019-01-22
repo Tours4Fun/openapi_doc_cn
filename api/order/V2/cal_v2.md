@@ -22,7 +22,7 @@
 | --adult            | integer |  是   | 成人数量 |
 | --kid              | integer |  是   | 儿童数量 |
 | --single_pairup    | integer |  否   | 是否单人配房 |
-| tickets            | array   |  是   | （票务产品参数）房间信息（含，成人数，儿童数，是否单人配方）|
+| tickets            | array   |  是   | （票务产品参数）|
 | --sku_id           | integer |  是   | sku id  |
 | --count            | integer |  是   | 购买数量 |
 

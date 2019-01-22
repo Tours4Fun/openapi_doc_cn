@@ -33,7 +33,7 @@
 | ---product_line   | string |  产品线 |
 | ---departure_date  | date |   出团日期 |
 | ---end_date        | date |   回团日期 |
-| ---departure_address | string | 出发日期 |
+| ---departure_address | string | 出发地点 |
 | ---rooms              | array   |  （非票务产品参数）房间信息（含，成人数，儿童数，是否单人配方）|
 | ----adult            | integer |  成人数量 |
 | ----kid              | integer |  儿童数量 |
