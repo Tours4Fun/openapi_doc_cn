@@ -14,8 +14,9 @@
 | ------------------- |:-------------:| ------------:| :-----------------------|
 | product_id          | int           |     Yes      |   Product id         |
 | departure_date      | date          |     Yes      |   Travel date          |
-| departure_address   | string        |     Yes      |   Departure address|
-| tickets             | array         |     Yes      |   --|
+| departure_address   | string        |     Yes      |   Departure address [Choose from departure](../../product/detail.md#product_departure)|
+| end_address         | string        |     Yes      |   End address|
+| sku_info            | array         |     Yes      |   --|
 | -sku_id             | int           |     Yes      |   Sku id|
 | -count              | int           |     Yes      |   The number of sku purchases|
 | contact             | array         |     Yes      |   Subscriber contact information|
@@ -39,7 +40,8 @@
         "product_id":102851724,          
         "departure_date":"2019-01-22",
         "departure_address":"jhjhj",
-        "tickets":[
+        "end_address":"jhjhj",
+        "sku_info":[
             {
                 "sku_id":760,
                 "count":1
