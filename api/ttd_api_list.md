@@ -12,4 +12,4 @@
 | [create order](./order/ttd/add.md)        |  /api_open/order/add  |  create order      |
 | [order list](./order/ttd/list.md)        |  /api_open/order/list  |  get order list      |
 | [order info](./order/ttd/detail.md)        |  /api_open/order/detail  |  get order detail      |
-| [order info](./order/ttd/cancel.md)        |  /api_open/order/cancel  |  cancel order      |
+| [cancel order](./order/ttd/cancel.md)        |  /api_open/order/cancel  |  cancel order      |

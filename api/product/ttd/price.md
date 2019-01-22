@@ -16,6 +16,29 @@
 | productIds          | array         |     Yse     |   Product ids          |
 | conditions          | array         |     No      |   price.currency currency code[default:product currency]; calendar.m calendar price month [default:Current month]; calendar.currency currency code[default:product currency]|
 
+    Supported currency
+| Currency                             |     Symbol                                   |
+| -------------------               |  :-----------------------                         |
+|USD | $|
+|GBP | £|
+|AUD | AUD|
+|NZD | NZD|
+|EUR | €|
+|CAD | C$|
+|CNY | ¥|
+|HKD | HK$|
+|RUB | руб|
+|KRW | ₩|
+|SUR | py6|
+|JPY | ¥|
+|ZAR | R|
+|NOK | kr|
+|PHP | ₱|
+|SEK | kr|
+|CHF | Fr|
+|DKK | kr|
+|AED | AED|
+
 ### Request parameter demo
 
 	{
