@@ -12,7 +12,7 @@
 
 | 参数           | 类型          | 是否必须 | 描述             |
 | -------------- |:-------------:| ----:| -----------------:|
-| order_id    | int  |  是   | 订单ID   |
+| order_id    | integer  |  是   | 订单ID   |
 
 **返回**
 
@@ -20,7 +20,44 @@
 | -------------- |:-------------:|:-----------------:|
 | code | integer|   0, -1 成功, 失败| 
 | msg  | string | success |
-| data | array |  array |
+| data | array |  数组或空数组 |
+| -order_id | integer |  订单ID |
+| -order_status | integer |  订单状态 |
+| -created_at | datetime |  创建时间 |
+| -updated_at | datetime |  更新时间 |
+| -price      | double   |  订单总价 |
+| -product_list | array |  产品数组 |
+| ---product_id | integer |  产品ID |
+| ---product_name | string |  产品名字 |
+| ---product_status | integer |  订单产品状态 |
+| ---product_line   | string |  产品线 |
+| ---departure_date  | date |   出团日期 |
+| ---end_date        | date |   回团日期 |
+| ---departure_address | string | 出发日期 |
+| ---rooms              | array   |  （非票务产品参数）房间信息（含，成人数，儿童数，是否单人配方）|
+| ----adult            | integer |  成人数量 |
+| ----kid              | integer |  儿童数量 |
+| ----single_pairup    | integer |  是否单人配房 |
+| ---price_info    | array |  价格信息 |
+| ----total_retail         | double |  总价 |
+| ----total_retail_target_currency | double |  目标币种总价 |
+| ----original_total_retail        | double |  产品原始总价 |
+| ----original_total_retail_target_currency | double |  目标比重原始总价 |
+| ----total_discount       | double |  总优惠价格 |
+| ----total_discount_target_currency        | double |  目标币种总优惠价格 |
+| ---contact          | array     |  联系人信息|
+| ----first_name      | string   |  名|
+| ----last_name       | string   |  姓|
+| ----mobile          | string   |  电话|
+| ----email           | string   |  邮箱|
+| ---guest            | string   |  出行人信息（此参数根据产品获取的PassengerForm变化而不同）|
+| ---upgrades         | string   |  升级项信息 |
+| ----upgrade_id      | integer   |  升级项ID|
+| ----option_id       | integer   |  升级项子选项ID|
+| ----name            | string   |  升级项名称|
+| ----subname         | string   |  升级项子名称|
+| ----option_name         | string   |  升级项选项名称|
+| ----provider_tour_code  | string   |  供应商tour code|
 	
 **请求参数示例**
 ```

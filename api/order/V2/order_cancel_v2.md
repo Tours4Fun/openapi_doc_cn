@@ -12,7 +12,7 @@
 
 | 参数           | 类型          | 是否必须 | 描述             |
 | -------------- |:-------------:| ----:| -----------------:|
-| order_id    | int  |  是   | 订单ID   |
+| order_id    | integer  |  是   | 订单ID   |
 | cancel_reason | string  |  否   | 取消原因   |
 
 **返回**
@@ -21,7 +21,9 @@
 | -------------- |:-------------:|:-----------------:|
 | code | integer|   0, -1 成功, 失败| 
 | msg  | string | success |
-| data | array |  array |
+| data | array |  数组 或 空数组 |
+| -order_id | integer |  订单ID |
+| -cancel_reason | string |  取消原因 |
 	
 **请求参数示例**
 ```

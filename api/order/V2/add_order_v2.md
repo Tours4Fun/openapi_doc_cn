@@ -12,14 +12,24 @@ V2版本 创单接口
 
 | 参数           | 类型          | 是否必须 | 描述             |
 | -------------- |:-------------:| ----:| -----------------:|
-| product_id    | int  |  是   | 产品ID   |
-| adult         | int  |  是   | 成人数量 |
-| kid           | int |  是    | 小孩数量 |
-| departure_date      | string  |  是   |  出团日期|
-| departure_address   |string   |  是   | 出发地点|
-| upgrades            | array   |  是   | 升级项（升级项ID：升级项子项ID）|
-| rooms               | array   |  是   | 房间信息（含，成人数，儿童数，是否单人配方）|
+| product_id    | integer  |  是   | 产品ID   |
+| adult         | integer  |  是   | 成人数量 |
+| kid           | integer |  是    | 小孩数量 |
+| departure_date     | string  |  是   |  出团日期|
+| departure_address  |string   |  是   | 出发地点|
+| upgrades           | array   |  是   | 升级项（升级项ID：升级项子项ID）|
+| rooms              | array   |  是   | （非票务产品参数）房间信息（含，成人数，儿童数，是否单人配方）|
+| --adult            | integer |  是   | 成人数量 |
+| --kid              | integer |  是   | 儿童数量 |
+| --single_pairup    | integer |  否   | 是否单人配房 |
+| tickets            | array   |  是   | （票务产品参数）房间信息（含，成人数，儿童数，是否单人配方）|
+| --sku_id           | integer |  是   | sku id  |
+| --count            | integer |  是   | 购买数量 |
 | contact     | array     |  是   | 联系人信息|
+| -first_name      | string     |  是   | 名|
+| -last_name       | string     |  是   | 姓|
+| -mobile          |   string   |  是   | 电话|
+| -email           | string     |  是   | 邮箱|
 | guest_info  | array     |  是   | 出行人信息|
 
 **返回**
@@ -28,7 +38,8 @@ V2版本 创单接口
 | -------------- |:-------------:|:-----------------:|
 | code | integer|   0, -1 成功, 失败| 
 | msg  | string | success |
-| data | array |  true, false msg |
+| data | array  |  数组或空数组 |
+| -order_id | integer  |  订单ID |
 
 
 **请求参数示例**
