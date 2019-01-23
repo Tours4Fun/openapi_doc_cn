@@ -30,14 +30,12 @@
 | product_id                        |     Product unique id                             |
 | product_type                      |     Product type [See Table 1 For Details.]       |
 | name                              |     Product name                                  |
-| departure_city                    |     Departure city                                |
-<details>
-<summary>departureCity</summary>
-| -id                               |     City id                                       |
-| -name_en                          |     English name                                  |
-| -name                             |     Chinese name                                  |
-</details>
-| return_city                       |     Return city                                   |
+| <details><summary>departureCity</summary>| Field                             |     Description                                   |
+                                           | -------------------               |  :-----------------------                         |
+                                           | -id                               |     City id                                       |
+                                           | -name_en                          |     English name                                  |
+                                           | -name                             |     Chinese name                                  |
+                                           | return_city                       |     Return city                                   |</details>                    |     Departure city                                |
 | -id                               |     City id                                       |
 | -name_en                          |     English name                                  |
 | -name                             |     Chinese name                                  |
