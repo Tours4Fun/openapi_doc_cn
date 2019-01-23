@@ -18,10 +18,44 @@
 **返回**
 
 | 参数           | 类型          | 描述             |
-| -------------- |:-------------:|:-----------------:|
+| ----------- |:----------:|:-----------:|
 | code | integer|   0, -1 成功, 失败| 
 | msg  | string | success |
-| data | array |  array |
+| data | array |  数组或空数组 |
+| -cur_page  | integer |  当前页数 |
+| -page_size | integer |  页面偏移量 |
+| -total_page| integer |  总页数 |
+| -total_num | integer |  数据总数量 |
+| -order_list| array |  订单列表 |
+| --order_id | integer |  订单ID |
+| --order_status | integer |  订单状态 |
+| --created_at | datetime |  创建时间 |
+| --updated_at | datetime |  更新时间 |
+| --currency   | string   |  订单币种 |
+| --price      | double   |  订单总价 |
+| --product_list | array |  产品数组 |
+| ---product_id | integer |  产品ID |
+| ---product_name | string |  产品名字 |
+| ---product_status | integer |  订单产品状态 |
+| ---product_line   | string |  产品线 |
+| ---departure_date  | date |   出团日期 |
+| ---end_date        | date |   回团日期 |
+| ---rooms              | array   |  房间信息（含，成人数，儿童数，是否单人配方）|
+| ----adult            | integer |  成人数量 |
+| ----kid              | integer |  儿童数量 |
+| ----single_pairup    | integer |  是否单人配房 |
+| ---price_info    | array |  价格信息 |
+| ----total_retail         | double |  总价 |
+| ----total_retail_target_currency | double |  目标币种总价 |
+| ----original_total_retail        | double |  产品原始总价 |
+| ----original_total_retail_target_currency | double |  目标比重原始总价 |
+| ----total_discount       | double |  总优惠价格 |
+| ----total_discount_target_currency        | double |  目标币种总优惠价格 |
+| ---contact          | array     |  联系人信息|
+| ----first_name      | string   |  名|
+| ----last_name       | string   |  姓|
+| ----mobile          | string   |  电话|
+| ----email           | string   |  邮箱|
 	
 **请求参数示例**
 ```
