@@ -31,9 +31,12 @@
 | product_type                      |     Product type [See Table 1 For Details.]       |
 | name                              |     Product name                                  |
 | departure_city                    |     Departure city                                |
+<details>
+<summary>departureCity</summary>
 | -id                               |     City id                                       |
 | -name_en                          |     English name                                  |
 | -name                             |     Chinese name                                  |
+</details>
 | return_city                       |     Return city                                   |
 | -id                               |     City id                                       |
 | -name_en                          |     English name                                  |
@@ -50,6 +53,7 @@
 | language                          |     Service language                              |
 | image_url                         |     Product image Url                             |
 | video_url                         |     Product video Url                             |
+
 
 
     info[Product description]

@@ -28,28 +28,14 @@
 
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
-| product_id                        |     Product Unique Id                             |
-| name                              |     Product Name                                  |
-| image_url                         |     Product Image Url                             |
-| duration                          |     Product Duration                              |
-| duration_type                     |     Product Duration Unit[min,hour,day]           |
-| sub_region                        |     Product Sub Region                            |
-| sub_region_chinese_name           |     Product Sub Region Chinese Name               |
-| region                            |     Product Region                                |
-| region_chinese_name               |     Product Region Name                           |
-| departure_city                    |     Departure City                                |
-| -id                               |     Id                                            |
-| -name_en                          |     English Name                                  |
-| -name                             |     Chinese Name                                  |
-| return_city                       |     Return City                                   |
-| -id                               |     Id                                            |
-| -name_en                          |     English Name                                  |
-| -name                             |     Chinese Name                                  |
-| visited_city                      |     Visited City                                  |
-| -id                               |     Id                                            |
-| -name_en                          |     English Name                                  |
-| -name                             |     Chinese Name                                  |
-| last_update                       |     Product Last Update Time                      |
+| product_id                        |     Product unique id                             |
+| name                              |     Product name                                  |
+| image_url                         |     Product image url                             |
+| duration                          |     Product duration                              |
+| duration_type                     |     Product duration unit[min,hour,day]           |
+| product_region                    |     Product region chinese name                   |
+| product_sub_region                |     Product sub region chinese name               |
+| last_update                       |     Product last update time                      |
 
 
 ### Interface return
@@ -58,64 +44,32 @@
         "code": 0,
         "msg": "success",
         "data": {
-            "count": 87,
+            "count": 12476,
             "page": 1,
-            "page_size": 10,
+            "page_size": 2,
             "products": [
                 {
-                    "product_id": 101461998,
-                    "name": "(12天)哥伦比亚，厄瓜多尔，秘鲁三国休闲之旅",
-                    "image_url": "//images/201510081444329046_5616b6565d06a_watermark_800_800.jpg",
+                    "product_id": 20112,
+                    "name": "8-Day A Taste Of San Francisco & Napa Valley Bus Tour",
+                    "image_url": "http://toursforfun.tff.bz/images/new-orleans_2.jpg",
+                    "product_line": "tour",
                     "duration": 12,
                     "duration_type": "day",
-                    "sub_region": "",
-                    "sub_region_chinese_name": "其他拉美地区",
-                    "region": "latin-america",
-                    "region_chinese_name": "拉美",
-                    "departure_city": [
-                        {
-                            "id": 717,
-                            "name_en": "Bogota",
-                            "name": "波哥大"
-                        }
-                    ],
-                    "return_city": [
-                        {
-                            "id": 1010,
-                            "name_en": "Cusco",
-                            "name": "库斯科"
-                        }
-                    ],
-                    "visited_city": [
-                        {
-                            "id": 669,
-                            "name_en": "Quito",
-                            "name": "基多"
-                        },
-                        {
-                            "id": 671,
-                            "name_en": "Lima",
-                            "name": "利马"
-                        },
-                        {
-                            "id": 717,
-                            "name_en": "Bogota",
-                            "name": "波哥大"
-                        },
-                        {
-                            "id": 719,
-                            "name_en": "Cartagena",
-                            "name": "卡塔赫纳"
-                        },
-                        {
-                            "id": 1010,
-                            "name_en": "Cusco",
-                            "name": "库斯科"
-                        }
-                    ],
-                    "last_update": 1547748250
+                    "product_region": "",
+                    "product_sub_region": "",
+                    "last_update": 1548180123
+                },
+                {
+                    "product_id": 20157,
+                    "name": "Totem Circle  With Vancouver Extension",
+                    "image_url": "http://toursforfun.tff.bz/images/201406061402033941_5391571503817_watermark_800_800.jpg",
+                    "product_line": "tour",
+                    "duration": 15,
+                    "duration_type": "day",
+                    "product_region": "佛州",
+                    "product_sub_region": "",
+                    "last_update": 1548180125
                 }
-                ......
             ]
         }
     }
