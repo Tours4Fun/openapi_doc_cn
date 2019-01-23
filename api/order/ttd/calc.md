@@ -14,7 +14,7 @@
 | ------------------- |:-------------:| ------------:| :-----------------------|
 | product_id          | int           |     Yes      |   Product id         |
 | departure_date      | date          |     Yes      |   Travel date          |
-| tickets             | array         |     Yes      |   --|
+| sku_info             | array         |     Yes      |   --|
 | -sku_id             | int           |     Yes      |   Sku id|
 | -count              | int           |     Yes      |   The number of sku purchases|
 
@@ -23,7 +23,7 @@
 	{
     		"product_id":102851716,
     		"departure_date":"2019-01-22",
-    		"tickets":[
+    		"sku_info":[
             	{
                    "sku_id":756,
                    "count":1
