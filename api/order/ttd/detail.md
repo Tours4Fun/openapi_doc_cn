@@ -12,13 +12,13 @@
 
 | Parameter           | Type          | Is required | Description             |
 | ------------------- |:-------------:| -----------:| :-----------------------|
-| orderId                | int           |     Yes      |   Order id         |
+| order_id                | int           |     Yes      |   Order id         |
 
 
 ### Request parameter demo
 
 	{
-    	"orderId":10004051
+    	"order_id":10004051
     }
 
 ### Return field description

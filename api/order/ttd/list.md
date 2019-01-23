@@ -13,13 +13,13 @@
 | Parameter           | Type          | Is required | Description             |
 | ------------------- |:-------------:| -----------:| :-----------------------|
 | page                | int           |     No      |   Page page number[default:1]         |
-| pageSize            | int           |     No      |   Number of paged data[default:10]          |
+| page_size            | int           |     No      |   Number of paged data[default:10]          |
 
 ### Request parameter demo
 
 	{
     	"page":1,
-    	"pageSize":20
+    	"page_size":20
     }
 
 ### Return field description

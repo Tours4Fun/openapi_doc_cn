@@ -12,8 +12,8 @@
 
 | Parameter           | Type          | Is required | Description             |
 | ------------------- |:-------------:| -----------:| :-----------------------|
-| returnFields        | array         |     No      |   If empty default["price", "month", "calendar"]         |
-| productIds          | array         |     Yse     |   Product ids          |
+| return_fields        | array         |     No      |   If empty default["price", "month", "calendar"]         |
+| product_ids          | array         |     Yse     |   Product ids          |
 | conditions          | array         |     No      |   price.currency currency code[default:product currency]; calendar.m calendar price month [default:Current month]; calendar.currency currency code[default:product currency]|
 
     Supported currency
@@ -42,8 +42,8 @@
 ### Request parameter demo
 
 	{
-    	"returnFields":["price","month","calendar"],
-    	"productIds":[102851680],
+    	"return_fields":["price","month","calendar"],
+    	"product_ids":[102851680],
     	"conditions":{
     		"price":{"currency":"cny"},
     		"calendar":{"m":["2019-2"],"currency":"usd"}

@@ -12,14 +12,14 @@
 
 | Parameter           | Type          | Is required | Description             |
 | ------------------- |:-------------:| -----------:| :-----------------------|
-| productIds          | array         |     Yes     |   Product Ids[max:50]           |
-| returnFields        | array         |     No      |   Optional Module:basic, info, departure, skuInfo, passengerForm, FinedPolicy[default:all modules]          |
+| product_ids          | array         |     Yes     |   Product Ids[max:50]           |
+| return_fields        | array         |     No      |   Optional Module:basic, info, departure, skuInfo, passengerForm, FinedPolicy[default:all modules]          |
 
 ### Request parameter demo
 
 	{
-    	"productIds":[102851680],
-    	"returnFields":["basic", "info", "departure", "skuInfo","passengerForm","finedPolicy"]
+    	"product_ids":[102851680],
+    	"return_fields":["basic", "info", "departure", "skuInfo","passengerForm","finedPolicy"]
     }
 
 ### Return field description

@@ -12,15 +12,15 @@
 
 | Parameter           | Type          | Is required | Description             |
 | ------------------- |:-------------:| -----------:| :-----------------------|
-| orderId                | int           |     Yes      |   Order id         |
-| cancelReason                | string           |     Yes      |   Cancel order reason         |
+| order_id                | int           |     Yes      |   Order id         |
+| cancel_reason                | string           |     Yes      |   Cancel order reason         |
 
 
 ### Request parameter demo
 
 	{
-    	"cancelReason":"不想要了",
-    	"orderId":10004051
+    	"cancel_reason":"不想要了",
+    	"order_id":10004051
     }
 
 ### Return field description
@@ -31,8 +31,8 @@
         "code": 0,
         "msg": "cancel order success",
         "data": {
-            "cancelReason": "不想要了",
-            "orderId": 10004051
+            "cancel_reason": "不想要了",
+            "order_id": 10004051
         }
     }
 

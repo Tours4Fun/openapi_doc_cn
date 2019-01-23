@@ -13,15 +13,15 @@
 | Parameter           | Type          | Is required | Description             |
 | ------------------- |:-------------:| -----------:| :-----------------------|
 | page                | int           |     No      |   Page page number[default:1]         |
-| pageSize            | int           |     No      |   Number of paged data[default:20,max:50]          |
-| lastUpdate          | int           |     No      |   Last update time, Unix timestamp[default:null]【The returned data will be greater than or equal to this value】           |
+| page_size            | int           |     No      |   Number of paged data[default:20,max:50]          |
+| last_update          | int           |     No      |   Last update time, Unix timestamp[default:null]【The returned data will be greater than or equal to this value】           |
 
 ### Request parameter demo
 
 	{
     	"page":1,
-    	"pageSize":10,
-    	"lastUpdate":1547748250
+    	"page_size":10,
+    	"last_update":1547748250
     }
 
 ### Return field description
