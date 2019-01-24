@@ -26,7 +26,8 @@
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
 | order_id                          |     Order id                             |
-| order_status                      |     [Click to view](../../../README.md)[订单状态码]                             |
+| order_status                      |     Order status                             |
+| order_status_name                      |     Order status name                            |
 | created_at                        |     Order create time                                  |
 | updated_at                        |     Order modify time                            |
 | price                             |     Order amount[USD]           |
