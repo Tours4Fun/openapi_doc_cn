@@ -6,7 +6,7 @@
 
 ### API address
 
-    api_open/product/detail
+    ttd/product/detail
 
 ### Request parameter description
 
@@ -14,6 +14,15 @@
 | ------------------- |:-------------:| -----------:| :-----------------------|
 | product_ids          | array         |     Yes     |   Product Ids[max:50]           |
 | return_fields        | array         |     No      |   Optional Module:basic, info, departure, skuInfo, passengerForm, FinedPolicy[default:all modules]          |
+
+```
+basic : Product basic information, type, region, media, etc.
+info : Product description information, group fee content, itinerary, etc.
+departure : Product departure start/end time and location.
+skuInfo : Product sku info and sale restriction.
+passengerForm : Information that travellers need to fill out.
+FinedPolicy : Cancel modification of penalty rules.
+```
 
 ### Request parameter demo
 
@@ -30,12 +39,11 @@
 | product_id                        |     Product unique id                             |
 | product_type                      |     Product type [See Table 1 For Details.]       |
 | name                              |     Product name                                  |
-| <details><summary>departureCity</summary>| Field                             |     Description                                   |
-                                           | -------------------               |  :-----------------------                         |
-                                           | -id                               |     City id                                       |
-                                           | -name_en                          |     English name                                  |
-                                           | -name                             |     Chinese name                                  |
-                                           | return_city                       |     Return city                                   |</details>                    |     Departure city                                |
+| departure_city                    |     Departure city                                |
+| -id                               |     City id                                       |
+| -name_en                          |     English name                                  |
+| -name                             |     Chinese name                                  |
+| return_city                       |     Return city                                   |
 | -id                               |     City id                                       |
 | -name_en                          |     English name                                  |
 | -name                             |     Chinese name                                  |
@@ -45,9 +53,6 @@
 | is_vega_show                      |     Show ticket[0=>No, 1=>Yes]                    |
 | product_region                    |     Product region name                           |
 | product_sub_region                |     Sub region name                               |
-| currency                          |     Product currency                              |
-| departure_location_status         |     [1=>Fixed location+user to select;2=>Fixed location+only show;3=>user fillin]Same as departure.location_status                              |
-| end_location_status               |     [1=>Fixed location+user to select;2=>Fixed location+only show;3=>user fillin]Same as departure.location_status                              |
 | language                          |     Service language                              |
 | image_url                         |     Product image Url                             |
 | video_url                         |     Product video Url                             |
@@ -91,7 +96,7 @@
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
 | start_locations/end_locations     |     Departure/end time and location                            |
-| location_status                   |     Refer to basic's departure_location_status       |
+| location_status                   |     [1=>Fixed location+user to select;2=>Fixed location+only show;3=>user fillin]       |
 | locations                         |          --                             |
 | -departure_id                     |     Departure id                                |
 | -start_time                       |     Start time                                |
@@ -102,7 +107,7 @@
 | -tips                             |     Tips                                |
 | -longitude                        |     Longitude                                |
 | -latitude                         |     Latitude                                |
-| -operations                       |     Available time                                |
+| -operations                       |     Available time[If it is empty, there is no date limit.]                                |
 | --start_date                      |     Start date                                |
 | --end_date                        |     End date                                |
 | --sunday                          |     [1=>sunday usable,0=>not]                                |
@@ -122,7 +127,6 @@
 | sku_name                          |     Sku name, Splicing according to attributes                               |
 | min_age                           |     Minimum age limit[0=>not limit]                               |
 | max_age                           |     Maximum age limit[0=>not limit]                               |
-| min_days_before_departure         |     Minimum purchase days in advance                               |
 | min_guest_number                  |     Minimum purchase quantity                               |
 | max_guest_number                  |     Maximum purchase quantity                               |
 | sold_with_other_sku               |     Can not be booked separately, need to be sold with other sku                               |
@@ -181,9 +185,6 @@
                     "is_vega_show": 0,
                     "product_region": "美国",
                     "product_sub_region": "美西",
-                    "currency": "EUR",
-                    "departure_location_status": 0,
-                    "end_location_status": 3,
                     "language": [
                         "English Audio",
                         "English Live"
@@ -427,8 +428,9 @@
     
     
     
-    Table 1.
     
+Table 1.
+
 | product_type     | type_name      | product_sub_type|
 |---------------   |:-------------: |----------------|
 |  7               |      TTD       | 一日游          |

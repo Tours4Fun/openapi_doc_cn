@@ -6,7 +6,7 @@
 
 ### API address
 
-    api_open/order/list
+    ttd/order/list
 
 ### Request parameter description
 
@@ -36,21 +36,11 @@
 | -product_name                     |     Product name                                |
 | -departure_date                   |     Travel time                           |
 | -end_date                         |     Travel end time                                |
-| -price_info                       |     --                                            |
-| --total_retail                    |     Total amount of this product                                  |
-| --currency                        |     Product currency                                  |
-| --symbol                          |     Currency symbol                                   |
 | -contact                          |     --                                            |
 | --firstname                       |     First name                                  |
 | --lastname                        |     Last name                                  |
 | --telephone                       |     Telephone                                  |
 | --email                           |     Email                                            |
-| -detail                           |     Product sku detail                                  |
-| --sku_id                          |     Sku id                                  |
-| --amount                          |     Purchase quantity                      |
-| --price                           |     The total price of this sku                      |
-| --display_name                    |     Display name                      |
-| --sku_name                        |     Sku name                      |
 
 
 ### Interface return
@@ -59,92 +49,49 @@
         "code": 0,
         "msg": "success",
         "data": {
-            "cur_page": 1,
-            "page_size": 20,
-            "total_page": 1,
-            "total_num": 2,
+            "page": 1,
+            "page_size": 2,
+            "count": 10,
             "order_list": [
                 {
-                    "order_id": 10004051,
-                    "created_at": "2019-01-21 14:34:36",
-                    "updated_at": "2019-01-21 14:34:38",
+                    "order_id": 10004056,
+                    "created_at": "2019-01-23 11:09:06",
+                    "updated_at": "2019-01-23 11:09:06",
                     "currency": "USD",
-                    "price": 15.7672,
+                    "price": 39.5901,
                     "product_list": [
                         {
-                            "product_id": 102851724,
-                            "product_name": "123123",
-                            "departure_date": "2019-01-22",
-                            "end_date": "2019-01-22",
-                            "price_info": {
-                                "total_retail": 22,
-                                "currency": "AUD",
-                                "symbol": "AUD"
-                            },
+                            "product_id": 102851680,
+                            "product_name": "Testing Alpesh product",
+                            "departure_date": "2019-01-25",
+                            "end_date": "2019-01-25",
                             "contact": {
                                 "firstname": "Sagar",
                                 "lastname": "Thesia",
                                 "telephone": "9574775177",
                                 "email": "sagart.bipl@gmail.com"
-                            },
-                            "detail": [
-                                {
-                                    "sku_id": 760,
-                                    "amount": 1,
-                                    "price": 11,
-                                    "display_name": "666",
-                                    "sku_name": "成人"
-                                },
-                                {
-                                    "sku_id": 761,
-                                    "amount": 1,
-                                    "price": 11,
-                                    "display_name": "999",
-                                    "sku_name": "儿童"
-                                }
-                            ]
+                            }
                         }
                     ]
                 },
                 {
-                    "order_id": 10004052,
-                    "created_at": "2019-01-21 16:25:22",
-                    "updated_at": "2019-01-21 16:25:23",
+                    "order_id": 10004060,
+                    "created_at": "2019-01-23 17:15:51",
+                    "updated_at": "2019-01-23 17:15:51",
                     "currency": "USD",
-                    "price": 15.7672,
+                    "price": 39.5901,
                     "product_list": [
                         {
-                            "product_id": 102851724,
-                            "product_name": "123123",
-                            "departure_date": "2019-01-22",
-                            "end_date": "2019-01-22",
-                            "price_info": {
-                                "total_retail": 22,
-                                "currency": "AUD",
-                                "symbol": "AUD"
-                            },
+                            "product_id": 102851680,
+                            "product_name": "Testing Alpesh product",
+                            "departure_date": "2019-01-25",
+                            "end_date": "2019-01-25",
                             "contact": {
                                 "firstname": "Sagar",
                                 "lastname": "Thesia",
                                 "telephone": "9574775177",
                                 "email": "sagart.bipl@gmail.com"
-                            },
-                            "detail": [
-                                {
-                                    "sku_id": 760,
-                                    "amount": 1,
-                                    "price": 11,
-                                    "display_name": "666",
-                                    "sku_name": "成人"
-                                },
-                                {
-                                    "sku_id": 761,
-                                    "amount": 1,
-                                    "price": 11,
-                                    "display_name": "999",
-                                    "sku_name": "儿童"
-                                }
-                            ]
+                            }
                         }
                     ]
                 }

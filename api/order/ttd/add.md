@@ -6,7 +6,7 @@
 
 ### API address
 
-    api_open/order/add
+    ttd/order/add
 
 ### Request parameter description
 

@@ -6,7 +6,7 @@
 
 ### API address
 
-    api_open/order/detail
+    ttd/order/detail
 
 ### Request parameter description
 
@@ -33,19 +33,15 @@
 | product_list                      |     Order related products                            |
 | -product_id                       |     Product id               |
 | -product_name                     |     Product name                                |
-| -product_status                   |     [Click to view](../../../README.md)[订单产品状态码]                                |
 | -departure_date                   |     Travel time                           |
 | -end_date                         |     Travel end time                                |
 | -departure_address                |     Departure address                          |
-| -price_info                       |     --                                            |
-| --total_retail                    |     Total amount of this product                                  |
-| --currency                        |     Product currency                                  |
-| --symbol                          |     Currency symbol                                   |
+| -end_address                      |     End address                          |
 | -contact                          |     --                                            |
 | --firstname                       |     First name                                  |
 | --lastname                        |     Last name                                  |
 | --telephone                       |     Telephone                                  |
-| -guest                            |     Traveler information                                            |
+| -guest_info                       |     Traveler information                                            |
 | --email                           |     Email                                            |
 | --sku_id                          |     Sku id                                            |
 | --lastname_en                     |     Last name                                            |
@@ -57,8 +53,7 @@
 | --mobile                          |     Mobile                                            |
 | -detail                           |     Product sku detail                                  |
 | --sku_id                          |     Sku id                                  |
-| --amount                          |     Purchase quantity                      |
-| --price                           |     The total price of this sku                      |
+| --count                           |     Purchase quantity                      |
 | --display_name                    |     Display name                      |
 | --sku_name                        |     Sku name                      |
 
@@ -69,23 +64,21 @@
         "code": 0,
         "msg": "success",
         "data": {
-            "order_id": 10004051,
+            "order_id": 10004060,
             "order_status": 100,
-            "created_at": "2019-01-21 14:34:36",
-            "updated_at": "2019-01-21 14:34:38",
-            "price": 15.77,
+            "order_status_name": "预定中",
+            "created_at": "2019-01-23 17:15:51",
+            "updated_at": "2019-01-23 17:15:51",
+            "price": 54.73,
+            "currency": "USD",
             "product_list": [
                 {
-                    "product_id": 102851724,
-                    "product_name": "123123",
-                    "departure_date": "2019-01-22",
-                    "end_date": "2019-01-22",
+                    "product_id": 102851680,
+                    "product_name": "Testing Alpesh product",
+                    "departure_date": "2019-01-25",
+                    "end_date": "2019-01-25",
                     "departure_address": "jhjhj",
-                    "price_info": {
-                        "total_retail": 22,
-                        "currency": "AUD",
-                        "symbol": "AUD"
-                    },
+                    "end_address": "hhhh",
                     "contact": [
                         {
                             "firstname": "Sagar",
@@ -94,9 +87,8 @@
                             "email": "sagart.bipl@gmail.com"
                         }
                     ],
-                    "guest": [
+                    "guest_info": [
                         {
-                            "telephone": "",
                             "email": "",
                             "sku_id": "760",
                             "lastname_en": "Thesia",
@@ -108,7 +100,6 @@
                             "mobile": "1-9574775177"
                         },
                         {
-                            "telephone": "",
                             "email": "",
                             "sku_id": "761",
                             "lastname_en": "Chandresh",
@@ -122,18 +113,16 @@
                     ],
                     "detail": [
                         {
-                            "sku_id": 760,
-                            "amount": 1,
-                            "price": 11,
-                            "display_name": "666",
-                            "sku_name": "成人"
+                            "sku_id": 553,
+                            "count": 1,
+                            "display_name": "2b",
+                            "sku_name": "时间:19:00|时长:120 hours|test other|成人"
                         },
                         {
-                            "sku_id": 761,
-                            "amount": 1,
-                            "price": 11,
-                            "display_name": "999",
-                            "sku_name": "儿童"
+                            "sku_id": 554,
+                            "count": 1,
+                            "display_name": "",
+                            "sku_name": "时间:15:00|时长:120 hours|test other|成人"
                         }
                     ]
                 }

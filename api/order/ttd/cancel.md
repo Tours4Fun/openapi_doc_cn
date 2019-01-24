@@ -6,7 +6,7 @@
 
 ### API address
 
-    api_open/order/cancel
+    ttd/order/cancel
 
 ### Request parameter description
 
@@ -27,6 +27,8 @@
 
 ### Interface return
 
+    success
+    
 	{
         "code": 0,
         "msg": "cancel order success",
@@ -35,5 +37,21 @@
             "order_id": 10004051
         }
     }
+    
+    error 1.
+        {
+            "code": 30007,
+            "msg": "Cancel Order failed!",
+            "data": []
+        }
+    Solution:Please check the order status or contact us.
+    
+    error 2.   
+        {
+            "code": 30007,
+            "msg": "Permission Not Allow",
+            "data": []
+        }
+    Solution:The order does not belong to you, please check the order id.
 
 
