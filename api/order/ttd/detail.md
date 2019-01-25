@@ -26,8 +26,8 @@
 | Field                             |     Description                                   |
 | -------------------               |  :-----------------------                         |
 | order_id                          |     Order id                             |
-| order_status                      |     Order status                             |
-| order_status_name                      |     Order status name                            |
+| order_status                      |     Order status[100,200,300]                             |
+| order_status_name                 |     Order status name[预定中,已出票,已取消]                            |
 | created_at                        |     Order create time                                  |
 | updated_at                        |     Order modify time                            |
 | price                             |     Order amount[USD]           |

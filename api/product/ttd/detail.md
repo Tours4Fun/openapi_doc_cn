@@ -178,8 +178,7 @@ FinedPolicy : Cancel modification of penalty rules.
                             "description": ""
                         }
                     ],
-                    "activity_type": 0,
-                    "ticket_type": 129,
+                    "activity_type": "景点门票",
                     "duration": 3,
                     "duration_type": "hour",
                     "is_vega_show": 0,
@@ -431,17 +430,17 @@ FinedPolicy : Cancel modification of penalty rules.
     
 Table 1.
 
-| product_type     | type_name      | product_sub_type|
-|---------------   |:-------------: |----------------|
-|  7               |      TTD       | 一日游          |
-|  8               |      TTD       | 接驳            |
-|  9               |      TTD       | 酒店            |
-| 10               |      TTD       | WIFI           |
-| 11               |      票务       | 票务            |
-| 12               |      跟团游     | 跟团游          |
-| 13               |      机票       | 机票            |
-| 14               |      签证       | 签证            |
-| 15               |      邮轮       | 邮轮            |
+| product_type     | product_type_name      |
+|---------------   |:-----------------------|
+|  7               |      TTD-一日游         |
+|  8               |      TTD-接驳          |
+|  9               |      TTD-酒店          |
+| 10               |      TTD-WIFI         |
+| 11               |      票务             |
+| 12               |      跟团游           |
+| 13               |      机票             |
+| 14               |      签证              |
+| 15               |      邮轮              |
 
 
 
