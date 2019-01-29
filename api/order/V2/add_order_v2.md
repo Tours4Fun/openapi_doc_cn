@@ -80,7 +80,7 @@ V2版本 创单接口
             "mobile":"86-6767"
         },
         {
-            "type":"kid",
+            "type":"child",
             "firstname_en":"oooo",
             "mobile":"86-67887"
         }
@@ -120,7 +120,7 @@ V2版本 创单接口
             "mobile":"86-6767"
         },
         {
-            "type":"kid",
+            "type":"child",
             "firstname_en":"oooo",
             "mobile":"86-67887"
         }
