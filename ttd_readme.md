@@ -47,7 +47,7 @@ API调用时，参数使用`JSON`方式表示，并作为Http Body 附加在http
 
 系统参数使用 `GET` 方式将参数以form-urlencoed的方式附加在api url后面，例如：
 
-    https://openapi.tufengwang.com/v2/product/detail?appkey=xxxxxx&sign=xxxxx&t=xxxxx&lang=zh_tw
+    https://openapi.tufengwang.com/ttd/product/detail?appkey=xxxxxx&sign=xxxxx&t=xxxxx&lang=zh_tw
 
 
 **系统参数列表:**
@@ -122,16 +122,16 @@ HTTP CODE 不管是否错误，均返回 200，由具体返回内容确定正确
 
 -----------------
 * Product
-  * [product list](./api/product/ttd/list.md)(get ttd product list)
-  * [product info](./api/product/ttd/detail.md)(get product detail)
-  * [product price](./api/product/ttd/price.md)(get product price)
+  * [Product list](./api/product/ttd/list.md) (Get ttd product list)
+  * [Product info](./api/product/ttd/detail.md) (Get product detail)
+  * [Product price](./api/product/ttd/price.md) (Get product price)
 * Order
-  * [create order](./api/order/ttd/add.md)(create order)
-  * [order list](./api/order/ttd/list.md)(get order list)
-  * [order info](./api/order/ttd/detail.md)(get order detail)
-  * [cancel order](./api/order/ttd/cancel.md)(cancel order)
+  * [Create order](./api/order/ttd/add.md) (Create order)
+  * [Order list](./api/order/ttd/list.md) (Get order list)
+  * [Order info](./api/order/ttd/detail.md) (Get order detail)
+  * [Cancel order](./api/order/ttd/cancel.md) (Cancel order)
 * Rate
-  * [currency exchange rate](./api/product/ttd/rate.md)(get currency exchange rate)
+  * [Currency exchange rate](./api/product/ttd/rate.md) (Get currency exchange rate)
 
 
 
