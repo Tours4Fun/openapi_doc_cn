@@ -4,7 +4,11 @@
 
 **版本：**`1.0`
 
-**修改日志：** [这里查看](updatelog.md)
+**修改日志:**
+
+--------
+- 2019-01-28 发布第一版v1.0
+
 
 # APPKEY 申请
 在调用相关API前，请先向我们商务申请途风开放平台APPKEY，并开通对应权限后方能调用API。
@@ -61,7 +65,19 @@ API调用时，参数使用`JSON`方式表示，并作为Http Body 附加在http
 签名算法主要用于生成系统参数 `sign`。生成方式为：
 
     md5(appkey + t + appsecret + 请求参数(json字符串))
-[签名范例](./api/sign_usage.md)
+
+签名范例：
+
+	<?php
+	$app_key = 'your_app_key';
+	$app_secret = 'your_app_secret';
+	$t = time();
+	$http_body = array(
+		'product_id' => 1234
+	);
+	$sign = md5( $app_key . $t . $app_secret . json_encode($http_body) );
+	// Do http request ...
+	?>
 
 ## 标准调用返回
 
@@ -104,14 +120,22 @@ HTTP CODE 不管是否错误，均返回 200，由具体返回内容确定正确
 
 # API list
 
-----
+-----------------
+* Product
+  * [product list](./api/product/ttd/list.md)(get ttd product list)
+  * [product info](./api/product/ttd/detail.md)(get product detail)
+  * [product price](./api/product/ttd/price.md)(get product price)
+* Order
+  * [create order](./api/order/ttd/add.md)(create order)
+  * [order list](./api/order/ttd/list.md)(get order list)
+  * [order info](./api/order/ttd/detail.md)(get order detail)
+  * [cancel order](./api/order/ttd/cancel.md)(cancel order)
+* Rate
+  * [currency exchange rate](./api/product/ttd/rate.md)(get currency exchange rate)
 
-| API类别    |  地址   |
-| ---------- |:--------:|
-|  TTD Product API (产品信息、产品价格、订单相关)  | [点击查看](./api/ttd_api_list.md) |
+
 
 # 订购流程指南
 
 ----
-
 [订购流程指南](./api/guide.md)
