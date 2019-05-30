@@ -52,11 +52,13 @@
 | --weight                          |     Weight                                            |
 | --passport                        |     Passport                                            |
 | --mobile                          |     Mobile                                            |
+| --ext_fields                      |     Booking Additional Fields of Travelers |
 | -detail                           |     Product sku detail                                  |
 | --sku_id                          |     Sku id                                  |
 | --count                           |     Purchase quantity                      |
 | --display_name                    |     Display name                      |
 | --sku_name                        |     Sku name                      |
+| -ext_fields                       |     Booking Additional Fields of Product |
 
 
 ### Interface return

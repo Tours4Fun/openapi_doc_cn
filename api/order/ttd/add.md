@@ -39,7 +39,7 @@
 ### Request parameter demo
 
 	{
-        "product_id":102851724,          
+        "product_id":102851724,
         "departure_date":"2019-01-22",
         "departure_address":"jhjhj",
         "end_address":"jhjhj",
@@ -61,7 +61,6 @@
         },
         "guest_info":[
             {
-                "type": "SAGAR Great Value",
                 "sku_id": 760,
                 "lastname_en": "Thesia",
                 "firstname_en": "Sagar",
@@ -76,7 +75,6 @@
                 }
             },
             {
-                "type": null,
                 "sku_id": 761,
                 "lastname_en": "Chandresh",
                 "firstname_en": "BIPL",
