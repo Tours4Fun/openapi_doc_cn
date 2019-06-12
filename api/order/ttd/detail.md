@@ -52,11 +52,13 @@
 | --weight                          |     Weight                                            |
 | --passport                        |     Passport                                            |
 | --mobile                          |     Mobile                                            |
+| --ext_fields                      |     Booking Additional Fields of Travelers |
 | -detail                           |     Product sku detail                                  |
 | --sku_id                          |     Sku id                                  |
 | --count                           |     Purchase quantity                      |
 | --display_name                    |     Display name                      |
 | --sku_name                        |     Sku name                      |
+| -ext_fields                       |     Booking Additional Fields of Product |
 
 
 ### Interface return
@@ -98,7 +100,11 @@
                             "dob": "1979-12-26",
                             "weight": "100",
                             "passport": "98765432",
-                            "mobile": "1-9574775177"
+                            "mobile": "1-9574775177",
+                            "ext_fields": {
+                                "您的早餐要求": "水果或一些健康食品.",
+                                "您想重复哪项服务？": "水疗和健身房"
+                            }
                         },
                         {
                             "email": "",
@@ -109,7 +115,11 @@
                             "dob": "1991-12-05",
                             "weight": "5",
                             "passport": "sdfeed",
-                            "mobile": "1-4561237890"
+                            "mobile": "1-4561237890",
+                            "ext_fields": {
+                                "高度 (cm)": "180",
+                                "您的早餐要求": "我会吃午饭"
+                            }
                         }
                     ],
                     "detail": [
@@ -125,7 +135,11 @@
                             "display_name": "",
                             "sku_name": "时间:15:00|时长:120 hours|test other|成人"
                         }
-                    ]
+                    ],
+                    "ext_fields": {
+                        "你想带Spa吗？": "Yes",
+                        "酒店的特殊要求": "不，没有"
+                    }
                 }
             ]
         }

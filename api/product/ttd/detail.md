@@ -13,7 +13,7 @@
 | Parameter           | Type          | Is required | Description             |
 | ------------------- |:-------------:| -----------:| :-----------------------|
 | product_ids          | array         |     Yes     |   Product Ids[max:50]           |
-| return_fields        | array         |     No      |   Optional Module:basic, info, departure, skuInfo, passengerForm, FinedPolicy[default:all modules]          |
+| return_fields        | array         |     No      |   Optional Module:basic, info, departure, skuInfo, passengerForm, FinedPolicy,bookingInfo[default:all modules]          |
 
 ```
 basic : Product basic information, type, region, media, etc.
@@ -22,13 +22,14 @@ departure : Product departure start/end time and location.
 skuInfo : Product sku info and sale restriction.
 passengerForm : Information that travellers need to fill out.
 FinedPolicy : Cancel modification of penalty rules.
+bookingInfo: Additional info need to fill up by travellers.
 ```
 
 ### Request parameter demo
 
-	{
-    	"product_ids":[102851680],
-    	"return_fields":["basic", "info", "departure", "skuInfo","passengerForm","finedPolicy"]
+    {
+        "product_ids":[102851680],
+        "return_fields":["basic", "info", "departure", "skuInfo","passengerForm","finedPolicy","bookingInfo"]
     }
 
 ### Return field description
@@ -151,11 +152,24 @@ FinedPolicy : Cancel modification of penalty rules.
 | -currency                         |     Amount of currency                               |
 
 
+    bookingInfo[Additional BookingInfo need to fillup]
+| Field                             |     Description                                   |
+| -------------------               |  :-----------------------                         |
+| product_level                     |     should be fillup only for per product         |
+| -suitable_sku_ids                 |     allow only for selected sku(e.g: "all"/"357,356")                               |
+| -name                             |     field label                                   |
+| -type                             |     field type (radio/text)                       |
+| -options                          |     field option selection if type=radion         |
+| passenger_level                   |     should be fillup for each traveller info      |
+| -suitable_sku_ids                 |     allow only for selected sku                               |
+| -name                             |     field label                                   |
+| -type                             |     field type (radio/text)                       |
+| -options                          |     field option selection if type=radion         |
 
 
 ### Interface return
 
-	{
+    {
         "code": 0,
         "msg": "success",
         "data": {
@@ -420,7 +434,38 @@ FinedPolicy : Cancel modification of penalty rules.
                             }
                         ]
                     }
-                ]
+                ],
+                "bookingInfo": {
+                    "product_level": [
+                        {
+                            "suitable_sku_ids": "ALL",
+                            "name": "你想带Spa吗？",
+                            "type": "单选",
+                            "options": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "suitable_sku_ids": "ALL",
+                            "name": "你去过哪个城市？",
+                            "type": "单选",
+                            "options": [
+                                "NewYourk",
+                                "SanFransicco",
+                                "Mumbai"
+                            ]
+                        }
+                    ],
+                    "passenger_level": [
+                        {
+                            "suitable_sku_ids": "ALL",
+                            "name": "您的早餐要求",
+                            "type": "文本",
+                            "options": []
+                        }
+                    ]
+                }
             }
         }
     }
