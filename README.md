@@ -1,8 +1,8 @@
 # 文档信息
 
-**最后更新日志：** 2018-01-16
+**最后更新日志：** 2023-03-03
 
-**VERSION：**`BETA`
+**VERSION：**`1.0`
 
 **查看修改记录：** [这里查看](updatelog.md)
 
@@ -53,7 +53,7 @@ API调用时，参数使用`JSON`方式表示，并作为Http Body 附加在http
 | appkey   |  string  | 应用标识，开通访问权限时分配   |
 | t        |  int     | timestamp时间戳，与服务器时间相差必须10分钟内。   |
 | sign     |  string  | 参数签名值，由appkey,t, 请求参数一并得到。|
-| lang     |  string  | 可选,语言选项,取值 zh\_cn(默认) 、 zh\_tw 。|
+| lang     |  string  | 可选,语言选项,取值 cn(默认) 、en、es。|
 
 
 ### 签名算法
@@ -147,7 +147,6 @@ HTTP CODE 不管是否错误，均返回 200，由具体返回内容确定正确
 | API类别    |  地址   |
 | ---------- |:--------:|
 |  产品API   | [前往查看](./api/product.md) |
-|  携程分销API   | [前往查看](./api/ctrip.md) |
 |  订单API   | [前往查看](./api/order.md) |
 
 # 订购流程指南
