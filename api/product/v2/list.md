@@ -14,7 +14,7 @@
 | 参数           | 类型          | 是否必须 | 描述             |
 | -------------- |:-------------:| ----:| :-----------------|
 | region     | string  |  否   | 地区  |
-| product_line     | string  |  否   | activity or tour  |
+| product_line     | string  |  否   | ttd or tour  |
 | page   | int  |  否   | 默认1  |
 | page_size   | int  |  否   | 每页条数,默认20  |
 | keyword   | string  |  否   | 关键字,例如产品名称  |
@@ -27,7 +27,7 @@ region数据源:
 ### 参数实例
 
     {
-    	"product_line" : "activity"
+    	"product_line" : "tour"
     }
 
 
