@@ -1,75 +1,75 @@
-# 产品列表
+# Product list
 
-### 描述
+### Description
 
-根据`地区`、`产品线` 等获取产品列表
+Get a list of products based on `region`, `product line`, etc.
 
 
-### API地址
+### API url
 
     /v2/product/list
 
-### 参数
+### Parameter
 
-| 参数           | 类型          | 是否必须 | 描述             |
+| Parameter           | type          | required | description            |
 | -------------- |:-------------:| ----:| :-----------------|
-| region     | string  |  否   | 地区  |
-| product_line     | string  |  否   | ttd or tour  |
-| page   | int  |  否   | 默认1  |
-| page_size   | int  |  否   | 每页条数,默认20  |
-| keyword   | string  |  否   | 关键字,例如产品名称  |
+| region     | string  |  no   | product region  |
+| product_line     | string  |  no   | ttd or tour  |
+| page   | int  |  no   | default 1  |
+| page_size   | int  |  no   | number of products per page, default 20  |
+| keyword   | string  |  no   | keyword, such as product name  |
 
-注意：`region`,`product_line`,`keyword`三个参数至少有一个
+Note: `region`,`product_line`,`keyword` Pass at least one of these three parameters
 
-region数据源:
-美国,加拿大,拉美,欧洲,澳新,邮轮目的地,非洲,亚洲,海岛目的地,其他,美西,美东,美中西,佛州,夏威夷,阿拉斯加,美南,加东,加西,墨西哥,其他拉美地区,欧洲,澳大利亚,新西兰,加勒比航线,墨西哥航线,阿拉斯加航线,夏威夷航线,百慕大航线,地中海航线,北欧航线,加拿大-新英格兰航线,亚洲航线,极地航线,环球航线,澳大利亚-新西兰航线,非洲,亚洲其它,中国,海岛,大洋洲,其他,北欧,中欧,东欧,西欧,南欧,英国,俄罗斯,古巴,爱尔兰
+region map:
+us,ca,latin-america,europe,anz,cruise,africa,asia,island,other,west,east,middle,florida,hawaii,alaska,south,east,west,mexico,other,europe,au,nz,caribbean,mexico,alaska,hawaii,bermuda,europe,nordic,canada-coast-new-england,asia,polar,global,australia-new-zealand,other,other,china,island,oceania,other,north,middle,east,west,south,britain,russia,cuba,ireland,Japan-and-South-Korea-Cruise,Southeast-Asia-Cruise,Africa-Cruise,Middle-East-Cruise,South-America-Cruise,Panama-Cruise,US-and-Canada-Cruise,Pacific-Cruise,European-River-Cruise,Africa-River-Cruise,Asia-River-Cruise,North-America-River-Cruise,Russian-River-Cruise,South-America-River-Cruise,Costa-Rica,Peru,Ecuador,Brazil,seattle,Puerto Rico,The-United-Arab-Emirates,Japan,Qatar,Republic of Korea,Egypt,The-Kingdom-of-Morocco,Yellow-Stone
 
-### 参数实例
+### Request parameter example
 
     {
     	"product_line" : "tour"
     }
 
 
-### 返回示例
+### Response
 
 	{
         "code": 0,
         "msg": "success",
         "data": {
-            //列表总数
+            //total product number
             "count": "8851",
-            //当前页数
+            //current page
             "page": "1",
-            //每页记录数
+            //number of products per page
             "page_size": "20",
             "products": [
                 {
-                    //产品id
+                    //product id
                     "product_id": "13374",
-                    //产品老id
+                    //product old id
                     "product_id_old": "103",
-                    //产品名称
-                    "name": "洛杉矶迪斯尼乐园超值欢乐一日游",
-                    //产品图片
-                    "image_url": "http://dn-toursforfun.qbox.me/images/201504271430120624_553de8b074648_watermark_800_800.jpg",
-                    //产品线
-                    "product_line": "activity",
-                    //产品时长
-                    "duration": "1.0",
-                    //产品时长单位
+                    //product name
+                    "name": "Los Angeles Disneyland Day Trip",
+                    //product image
+                    "image_url": "https://tffimg.tff.bz/c2/b0/c73/626/843f4f193a898543855e36.jpg",
+                    //product line
+                    "product_line": "tour",
+                    //product duration
+                    "duration": "3.0",
+                    //product duration type: day,hour,minite
                     "duration_type": "day",
-                    //产品子区域
+                    //product sub region
                     "sub_region": "west",
-                    //产品子区域中文名称
+                    //product sub region chinese name
                     "sub_region_chinese_name": "美西",
-                    //产品区域
+                    //product region
                     "region": "us",
-                    //产品区域中文名称
+                    //product region chinese name
                     "region_chinese_name": "美国",
-                    //建议价格
+                    //advertised price
                     "advertised_price": "20.700001",
-                    //出发城市
+                    //product departure city
                     "departure_city": [
                         {
                             "id": 1,
@@ -77,7 +77,7 @@ region数据源:
                             "name": "洛杉矶"
                         }
                     ],
-                    //结束城市
+                    //product end city
                     "return_city": [
                         {
                             "id": 1,
@@ -85,7 +85,7 @@ region数据源:
                             "name": "洛杉矶"
                         }
                     ],
-                    //途径城市
+                    //product vistied city
                     "visited_city": [
                         {
                             "id": 1,
@@ -97,9 +97,9 @@ region数据源:
                 {
                     "product_id": "13527",
                     "product_id_old": "240",
-                    "name": "一日夏威夷大岛风情游/Big Island One Day Tour",
-                    "image_url": "http://dn-toursforfun.qbox.me/images/bida.jpg",
-                    "product_line": "activity",
+                    "name": "Big Island One Day Tour",
+                    "image_url": "https://tffimg.tff.bz/e1/04/424/beb/abf7e56a478c2fb7e9c1d8.jpg",
+                    "product_line": "tour",
                     "duration": "11.5",
                     "duration_type": "hour",
                     "sub_region": "hawaii",

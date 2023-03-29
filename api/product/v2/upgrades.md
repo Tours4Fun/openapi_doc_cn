@@ -1,25 +1,25 @@
-# 产品升级项
+# Product Upgrades
 
-### 描述
+### Description
 
-根据`产品号`、`出行日期`、`购买日期` 获取产品升级项列表
+Obtain a list of product upgrade items based on `product id`, `departure date`, `purchase date`
 
 
-### API地址
+### API URL
 
     /v2/product/upgrades
 
-### 参数
+### Parameter
 
-| 参数           | 类型          | 是否必须 | 描述             |
+| parameter           | type          | required | description             |
 | -------------- |:-------------:| ----:| :-----------------|
-| product_id     | int  |  是   | 产品ID号  |
-| departure_date     | date  |  是   | 出行日期(Y-m-d)  |
-| purchase_date     | date  |  否   | 购买日期(Y-m-d)默认服务器当前日期  |
-| currency     | string  |  否   | 货币类型默认'USD'  |
+| product_id     | int  |  yes   | product id  |
+| departure_date     | date  |  yes   | departure date(Y-m-d)  |
+| purchase_date     | date  |  no   | purchase date(Y-m-d), default current date |
+| currency     | string  |  no   | default currency 'USD'  |
 
 
-### 参数实例
+### Reqeust parameter example
 
 	{
     	"product_id" : 101457621,
@@ -29,38 +29,33 @@
 
 
 
-### 返回示例
+### Response
 
 	{
         "code": 0,
         "msg": "success",
         "data": [
             {
-                //升级项目id
+                //upgrade id
                 "upgrade_id": 4,
-                //升级项目名称
-                "name": "机场接机",
-                //子标题
+                //upgrade name
+                "name": "airport pickup",
+                //upgrade sub name
                 "sub_name": "",
-                //货币类型
+                //currency
                 "currency": "CNY",
-                //提示
+                //upgrade tips
                 "tips": "",
-                //是否多选
                 "can_multi_select": 0,
-                //当can_multi_select为1时，此处表示需要选择的个数（ 0表示可以不选 ）；当can_multi_select为0时，这个选项无效，表示为必选项目
+                //when can_multi_select is 1, required means must select number of "required" corresponding values
                 "required": 1,
-                //升级项目选项
+                //upgrade options
                 "options": [
                     {
-                        //选项id
                         "option_id": 78,
-                        //选项名称
-                        "name": "如人数更多则需要报价",
+                        "name": "opiton A",
                         "is_per_order": 0,
-                        //提示
                         "tips": "",
-                        //价格
                         "value": [
                             {
                                 "name": "single",
@@ -86,7 +81,7 @@
                     },
                     {
                         "option_id": 93,
-                        "name": "1个人 10:01pm-12:00am",
+                        "name": "one person 10:01pm-12:00am",
                         "is_per_order": 0,
                         "tips": "",
                         "value": [
@@ -98,7 +93,7 @@
                     },
                     {
                         "option_id": 94,
-                        "name": "2个人 10:01pm-12:00am",
+                        "name": "two person 10:01pm-12:00am",
                         "is_per_order": 0,
                         "tips": "",
                         "value": [
@@ -126,7 +121,7 @@
                     },
                     {
                         "option_id": 95,
-                        "name": "3个人 10:01pm-12:00am",
+                        "name": "three person 10:01pm-12:00am",
                         "is_per_order": 0,
                         "tips": "",
                         "value": [
@@ -154,7 +149,7 @@
                     },
                     {
                         "option_id": 96,
-                        "name": "4个人 10:01pm-12:00am",
+                        "name": "four person 10:01pm-12:00am",
                         "is_per_order": 0,
                         "tips": "",
                         "value": [
@@ -166,7 +161,7 @@
                     },
                     {
                         "option_id": 97,
-                        "name": "5个人 10:01pm-12:00am",
+                        "name": "five person 10:01pm-12:00am",
                         "is_per_order": 0,
                         "tips": "",
                         "value": [
@@ -178,7 +173,7 @@
                     },
                     {
                         "option_id": 98,
-                        "name": "6个人 10:01pm-12:00am",
+                        "name": "six person 10:01pm-12:00am",
                         "is_per_order": 0,
                         "tips": "",
                         "value": [

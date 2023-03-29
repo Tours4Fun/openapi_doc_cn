@@ -1,29 +1,29 @@
-# 产品出发地点
+# Product Departure Location
 
-### 描述
+### Description
 
-根据`产品号`、`出行日期` 获取产品出发地点
+Obtain the departure location of the product according to the `product id` and `departure date`
 
 
-### API地址
+### API URL
 
     /v2/product/departure
 
-### 参数
+### Parameter
 
-| 参数           | 类型          | 是否必须 | 描述             |
+| parameter           | type          | required | description             |
 | -------------- |:-------------:| ----:| :-----------------|
-| product_id     | int  |  是   | 产品ID号  |
-| departure_date     | date  |  是   | 出行时间(Y-m-d)  |
+| product_id     | int  |  yes   | product id  |
+| departure_date     | date  |  yes   | departure date(Y-m-d)  |
 
-### 参数实例
+### Request parameter example
 
     {
     	"product_id" : 101457621,
     	"departure_date" : "2018-01-12"
     }
 
-### 返回示例
+### Response
 
 	{
         "code": 0,
@@ -32,14 +32,10 @@
             {
                 //departure_id
                 "id": 32903,
-                //上车时间 如果只有start_time,代表一个时间点;start_time、end_time都存在代表一个时间段;如果start_time、end_time都为空代表不限时间
                 "start_time": "11:00:00",
                 "end_time": "",
-                //地点
                 "location": "12121",
-                //地址
                 "address": "12212112",
-                //提示
                 "tips": "12211222"
             },
             {

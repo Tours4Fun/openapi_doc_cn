@@ -1,79 +1,68 @@
-# 创建订单
+# Create order
 
-**描述**
+**Description**
 
-V2版本 创单接口
+V2 Version Create order API
 
-### API地址
+### API URL
 
     POST	/v2/order/add
 
-**参数**
+**Parameter**
 
-| 参数           | 类型          | 是否必须 | 描述             |
+| parameter           | type          | required | description             |
 | -------------- |:-------------:| ----:| -----------------:|
-| product_id    | integer  |  是   | 产品ID   |
-| adult         | integer  |  是   | 成人数量 |
-| kid           | integer |  是    | 小孩数量 |
-| departure_date     | string  |  是   |  出团日期|
-| departure_address  |string   |  是   | 出发地点|
-| upgrades           | array   |  是   | 升级项（升级项ID：升级项子项ID）|
-| rooms              | array   |  是   | （非票务产品参数）房间信息（含，成人数，儿童数，是否单人配方）|
-| --adult            | integer |  是   | 成人数量 |
-| --kid              | integer |  是   | 儿童数量 |
-| --single_pairup    | integer |  否   | 是否单人配房 |
-| tickets            | array   |  是   | （票务产品参数）房间信息（含，成人数，儿童数，是否单人配方）|
-| --sku_id           | integer |  是   | sku id  |
-| --count            | integer |  是   | 购买数量 |
-| contact     | array     |  是   | 联系人信息|
-| -first_name      | string     |  是   | 名|
-| -last_name       | string     |  是   | 姓|
-| -mobile          |   string   |  是   | 电话|
-| -email           | string     |  是   | 邮箱|
-| guest_info  | array     |  是   | 出行人信息（此参数根据产品获取的PassengerForm变化而不同）|
+| product_id    | integer  |  yes   | product id   |
+| departure_date     | string  |  yes   |  departure date|
+| departure_address  |string   |  yes   | departure address|
+| upgrades           | array   |  yes   | upgrade（upgrade_id：upgrade_option_id）|
+| rooms              | array   |  yes   | room info|
+| --adult            | integer |  yes   | adult number |
+| --kid              | integer |  yes   | kid number |
+| --single_pairup    | integer |  no   | single pairup: yes no |
+| contact     | array     |  yes   | contact|
+| -first_name      | string     |  yes   | first name|
+| -last_name       | string     |  yes   | last name|
+| -mobile          |   string   |  yes   | mobile|
+| -email           | string     |  yes   | email|
+| guest_info  | array     |  yes   | guest info|
 
-**返回**
+**Response**
 
-| 参数           | 类型          | 描述             |
+| parameter           | type          | description             |
 | -------------- |:-------------:|:-----------------:|
-| code | integer|   0, -1 成功, 失败| 
+| code | integer|   0, -1 success, fail|
 | msg  | string | success |
-| data | array  |  数组或空数组 |
-| -order_id | integer  |  订单ID |
+| data | array  |  array or empty array |
+| -order_id | integer  |  order id |
 
 
-**请求参数示例**
+**Reqeust parameter example**
 
-（以下请求参数适用于一日游，多日游产品线）
 ```
 {
-    "product_id":102202692,  
-    "adult":1,          
-    "kid":1,            
-    "departure_date":"2019-01-16",   //出团日期
-    "departure_address":"jhjhj",     //出团地点
-    "upgrades":{        
-        "30100":["30577"]      //通过产品升级项接口获取到的 upgradesid : [ option_id ]
+    "product_id":102202692,
+    "departure_date":"2019-01-16",
+    "departure_address":"jhjhj",
+    "upgrades":{
+        "30100":["30577"]      //from product upgrades api upgradesid : [ option_id ]
     },
-    //房间信息
-    "rooms":[       
+    //room info
+    "rooms":[
         {
-            "adult":2,             //成人人数
-            "kid":0,               //儿童人数
-            "single_pairup":0      //是否单人配房
+            "adult":2,
+            "kid":0,
+            "single_pairup":0
         }
     ],
-    //联系人信息
-    "contact":{     
+    "contact":{
         "first_name":"a",
         "last_name":"b",
         "mobile":"1",
         "email":"2@q.q"
     },
-    //出行人信息（可多个）
     "guest_info":[
-        //以下的字段来自于从产品接口获取到的PassengerForm，对每个字段进行组装后，
-        //放入这里，以下三个字段只是举例，详细请看具体产品接口返回的各个字段      
+        //The following fields come from the PassengerForm obtained from the product API. After assembling each field, put it here, the following three fields are just examples, please refer to the fields returned by the specific product interface for details
         {
             "type":"adult",
             "firstname_en":"ghghg",
@@ -87,48 +76,8 @@ V2版本 创单接口
     ]
 }
 ```
-（以下参数适用于票务产品线）
-```
-{
-    "product_id":102202730,  
-    "adult":1,          
-    "kid":1,            
-    "departure_date":"2019-01-16",   //出团日期
-    "departure_address":"jhjhj",     //出团地点
-    "upgrades":{       
-        "219":["1375"],   //通过产品升级项接口获取到的 upgradesid : [ option_id ]
-        "221":["1378"]
-    },
-    "tickets":[
-        {
-            "sku_id":15021,
-            "count":1
-        }
-    ],
-    //联系人信息
-    "contact":{
-        "first_name":"a",   
-        "last_name":"b",
-        "mobile":"1",
-        "email":"2@q.q"
-    },
-    //出行人信息（可多个）（因票务产品无出行人信息，此项可不传）
-    "guest_info":[
-        {
-            "type":"adult",         
-            "firstname_en":"ghghg",
-            "mobile":"86-6767"
-        },
-        {
-            "type":"child",
-            "firstname_en":"oooo",
-            "mobile":"86-67887"
-        }
-    ]
-}
-```
 
-**返回示例**
+**Response**
 
 ```
 {

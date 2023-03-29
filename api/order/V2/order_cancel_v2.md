@@ -1,39 +1,39 @@
-# 订单详情
+# Cancel order
 
-**描述**
+**Description**
 
-根据订单号，获取订单详情信息
+Cancel order
 
-### API地址
+### API URL
 
     POST   /v2/order/cancel
-	
-**参数**
 
-| 参数           | 类型          | 是否必须 | 描述             |
+**Parameter**
+
+| parameter           | type          | required | description             |
 | -------------- |:-------------:| ----:| -----------------:|
-| order_id    | integer  |  是   | 订单ID   |
-| cancel_reason | string  |  否   | 取消原因   |
+| order_id    | integer  |  yes   | order id   |
+| cancel_reason | string  |  no   | reason for cancellation   |
 
-**返回**
+**Response**
 
-| 参数           | 类型          | 描述             |
+| parameter           | type          | description             |
 | -------------- |:-------------:|:-----------------:|
-| code | integer|   0, -1 成功, 失败| 
+| code | integer|   0, -1 success, fail|
 | msg  | string | success |
-| data | array |  数组 或 空数组 |
-| -order_id | integer |  订单ID |
-| -cancel_reason | string |  取消原因 |
-	
-**请求参数示例**
+| data | array |  array or empty array |
+| -order_id | integer |  order id |
+| -cancel_reason | string |  reason for cacellation |
+
+**Reqeust parameter example**
 ```
 {
     "order_id":1672
-    "cancel_reason":"不想买了"
+    "cancel_reason":"I don't want to buy it now"
 }
 ```
 
-**返回示例**
+**Response**
 ```
 {
 	"code": 30007,
@@ -46,7 +46,7 @@ or
 	"msg": "cancel order success",
 	"data": {
 	   "order_id":1672
-       "cancel_reason":"不想买了"
+       "cancel_reason":"I don't want to buy it now"
 	}
 }
 ```
